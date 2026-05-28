@@ -1,7 +1,6 @@
 import {
   entity,
   authenticated,
-  anonymous,
   uuid,
   text,
   date,
@@ -23,11 +22,9 @@ import { Recipe } from './Recipe.js';
  * loaded Recipe when creating a comment.
  *
  * Permissions:
- *  - **read** is allowed when:
- *      - the recipe is non-private (public/unlisted) — anyone, signed in or not, OR
- *      - the caller (authenticated) owns the recipe, OR
- *      - the caller (authenticated) owns the comment.
- *    Reading comments on public/unlisted recipes does not require sign-in.
+ *  - **read** is allowed when the recipe is non-private (so any signed-in
+ *    viewer can see public/unlisted comment threads), OR the caller owns the
+ *    parent recipe, OR the caller authored the comment.
  *  - **create** requires authentication and the same visibility constraint
  *    (you can only comment on a recipe you can view).
  *  - **update** is restricted to the comment author.
@@ -36,27 +33,24 @@ import { Recipe } from './Recipe.js';
  *    can read & post comments on them, matching the spec.
  */
 @entity()
-@anonymous('read', {
-  policy: (_claims, item) => item.recipe_visibility.neq('private'),
-})
-@authenticated('read', {
+@authenticated<Comment>('read', {
   policy: (claims, item) =>
     item.recipe_visibility
       .neq('private')
       .or(claims.sub.eq(item.recipe_user_id))
       .or(claims.sub.eq(item.user_id)),
 })
-@authenticated('create', {
+@authenticated<Comment>('create', {
   policy: (claims, item) =>
     item.recipe_visibility
       .neq('private')
       .or(claims.sub.eq(item.recipe_user_id))
       .or(claims.sub.eq(item.user_id)),
 })
-@authenticated('update', {
+@authenticated<Comment>('update', {
   policy: (claims, item) => claims.sub.eq(item.user_id),
 })
-@authenticated('delete', {
+@authenticated<Comment>('delete', {
   policy: (claims, item) =>
     claims.sub.eq(item.recipe_user_id).or(claims.sub.eq(item.user_id)),
 })

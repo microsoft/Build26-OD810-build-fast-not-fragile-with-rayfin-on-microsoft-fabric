@@ -9,9 +9,10 @@ interface ImportMetaEnv {
   /**
    * Where to put user-uploaded recipe cover images.
    * - `inline` (default): base64-encode and store on the Recipe row directly.
-   *   Workaround while the Rayfin storage data plane is broken on Fabric.
-   * - `storage`: upload to Rayfin storage as a blob (works locally; broken on
-   *   Fabric until upstream fixes the `TenantResolutionMiddleware` issue).
+   *   Keeps writes to a single round-trip; ideal for small covers.
+   * - `storage`: upload to Rayfin storage as a blob via
+   *   [src/lib/storage.ts](./lib/storage.ts). Works against both local dev
+   *   and the deployed Fabric backend.
    */
   readonly VITE_STORAGE_MODE?: 'inline' | 'storage';
 }

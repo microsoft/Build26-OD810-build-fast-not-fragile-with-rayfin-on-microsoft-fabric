@@ -1,6 +1,5 @@
 import {
   entity,
-  anonymous,
   authenticated,
   uuid,
   text,
@@ -12,13 +11,13 @@ import { Recipe } from './Recipe.js';
 /**
  * A user's like (favorite) for a recipe.
  *
- * Anonymous users can read likes (so the UI can show like counts on public
- * recipes). Only authenticated users can create or delete their own likes,
- * enforced by the policy on user_id.
+ * Any signed-in user can read all likes (so the UI can show like counts on
+ * recipes they can see). Only the like's owner can create or delete their
+ * own likes — enforced by the policy on user_id.
  */
 @entity()
-@anonymous('read')
-@authenticated(['create', 'delete', 'read'], {
+@authenticated('read')
+@authenticated<Like>(['create', 'delete'], {
   policy: (claims, item) => claims.sub.eq(item.user_id),
 })
 export class Like {

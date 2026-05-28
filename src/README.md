@@ -55,8 +55,11 @@ npx rayfin up --workspace-id <workspace-id>
 
 When it's done, `rayfin up status` prints the hosting URL — open it in a browser, sign in with Microsoft Fabric, and the app self-seeds the recipe catalogue on first visit (see [How the seed works](#how-the-seed-works)).
 
+> [!NOTE]
+> **Update — `@anonymous` decorators removed.** This sample originally used Rayfin's `@anonymous` decorator so unauthenticated visitors could browse public recipes. Anonymous data access to Fabric sources is now enforced off at the tenant level for Fabric apps at release, so the sample has been updated to drop `@anonymous` everywhere — every visitor now signs in via Microsoft Fabric SSO. Anonymous access will come back once the tenant-level setting ships post-GA.
+
 > [!IMPORTANT]
-> **Anonymous access at release.** Anonymous data access to Fabric sources is **not supported** for Fabric apps at release. A tenant setting for administrators to enable it will be available later. This sample uses preview-only anonymous read on `Recipe`, `Like`, `Comment`, and `RecipeImage` to keep the demo flow open to unauthenticated visitors — production apps deployed at GA will need that tenant setting enabled before the same flow works.
+> **Anonymous access at release.** Anonymous data access to Fabric sources is **not supported** for Fabric apps at release. A tenant setting for administrators to enable it will be available later. Until then, every visitor (including the discover page and `unlisted` shares) needs to sign in.
 
 ### 4. Local development against the deployed backend
 
@@ -74,7 +77,7 @@ Key behaviours:
 
 - **Idempotent.** Recipes are matched by `slug` — re-running never creates duplicates.
 - **Self-healing for images.** Each run probes `RecipeImage.download(...)` for every recipe's cover. If the bytes are missing, the stale metadata row is deleted and the image is re-uploaded.
-- **Anonymous uploads.** Storage scopes blobs by uploader, so seed (and the React app) upload via an unauthenticated storage client — the publishable key alone is enough — so covers are readable by every visitor.
+- **Authenticated uploads.** Seed (and the React app) upload cover images through the signed-in `apiClient`, so any signed-in visitor can read them once they exist.
 - **Consistent attribution.** Recipes are created with `authorName: "Contoso Chef"` regardless of who triggered the seed.
 - **One-time guard.** A per-browser `localStorage` flag skips the empty-database probe on subsequent visits.
 

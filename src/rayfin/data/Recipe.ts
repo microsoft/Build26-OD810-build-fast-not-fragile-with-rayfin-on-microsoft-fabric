@@ -1,6 +1,5 @@
 import {
   entity,
-  anonymous,
   authenticated,
   uuid,
   text,
@@ -16,14 +15,11 @@ import { Comment } from './Comment.js';
 /**
  * A recipe. Visibility controls who can see it:
  *  - private (default): only the creator
- *  - unlisted: anyone with the direct link / id (not surfaced in discovery)
- *  - public: discoverable by everyone
+ *  - unlisted: any signed-in user with the direct link / id (not surfaced in discovery)
+ *  - public: discoverable by every signed-in visitor
  */
 @entity()
-@anonymous('read', {
-  policy: (_claims, item) => item.visibility.neq('private'),
-})
-@authenticated('*', {
+@authenticated<Recipe>('*', {
   policy: (claims, item) =>
     claims.sub.eq(item.user_id).or(item.visibility.neq('private')),
 })

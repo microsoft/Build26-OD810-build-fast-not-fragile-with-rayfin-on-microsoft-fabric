@@ -16,16 +16,17 @@
     "lint": "tsc -b --noEmit"
   },
   "dependencies": {
-    "@microsoft/rayfin-auth-provider-fabric": "~1.29.0",
-    "@microsoft/rayfin-client": "~1.29.0",
-    "@microsoft/rayfin-core": "~1.29.0",
-    "@microsoft/rayfin-storage": "~1.29.0",
+    "@microsoft/rayfin-auth-provider-fabric": "^1.32.0",
+    "@microsoft/rayfin-client": "^1.32.0",
+    "@microsoft/rayfin-core": "^1.32.0",
+    "@microsoft/rayfin-storage": "^1.32.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"
   },
   "devDependencies": {
-    "@microsoft/rayfin-cli": "~1.18",
+    "@microsoft/rayfin-cli": "~1.23.0",
+    "@microsoft/rayfin-mcp": "^1.30.0",
     "@types/node": "^22.10.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",

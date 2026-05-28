@@ -6,9 +6,8 @@ import { bundledImageKey } from './image';
  * `/seed/recipes.json` by `vite-plugin-seed-assets`) into the connected
  * Rayfin backend, uploading each cover image from `/seed/images/<slug>.jpg`.
  *
- * Runs against the SAME backend the app is currently talking to:
- * - locally: the Docker dev stack
- * - in Fabric: the deployed Rayfin item
+ * Runs against the deployed Fabric backend the app is currently signed
+ * in to.
  *
  * Authentication: requires the user to be already signed in (they own the
  * created recipes). Uploads use the helpers in `./storage.ts` to bypass a

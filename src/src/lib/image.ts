@@ -12,13 +12,12 @@ const inflight = new Map<string, Promise<string>>();
  *
  * - `data:image/...;base64,...` — the cover image is base64-encoded directly
  *   on the Recipe row. This is the default for user-uploaded covers because
- *   the Rayfin storage data plane currently fails on Microsoft Fabric with a
- *   server-side `TenantResolutionMiddleware` error. The browser renders data
- *   URLs natively, so we just return it as-is.
+ *   it keeps writes to a single round-trip; the browser renders data URLs
+ *   natively so we just return it as-is.
  *
  * - `<recipeId>/<filename>` — Rayfin storage blob. Used when
- *   `VITE_STORAGE_MODE=storage`. Works locally; may start working on Fabric
- *   once the upstream issue is fixed.
+ *   `VITE_STORAGE_MODE=storage`. Goes through the signed-in `apiClient` in
+ *   [./storage.ts](./storage.ts).
  *
  * The mode is selected at build time so the same bundle never mixes
  * upload paths within one deploy.

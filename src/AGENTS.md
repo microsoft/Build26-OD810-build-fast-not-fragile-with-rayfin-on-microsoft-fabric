@@ -30,10 +30,10 @@ public/, index.html, vite.config.ts, tsconfig*.json
 | Entity | Notes |
 |---|---|
 | `Recipe` | `slug` is the dedup key. `visibility`: `private` (owner only, default) / `unlisted` (link-only) / `public` (discoverable). Ingredients/steps/allergens stored as JSON strings. RLS enforced server-side — never add `user_id` filters client-side. |
-| `Like` | Per-user favorite. Anyone can read likes (so the UI can show like counts); only the like's owner can create or delete it. |
-| `Comment` | Per-user comment on a recipe. Anyone can read comments on non-private recipes; authors create; recipe owners and comment authors can delete. |
+| `Like` | Per-user favorite. Any signed-in user can read all likes (so the UI can show like counts); only the like's owner can create or delete it. |
+| `Comment` | Per-user comment on a recipe. Authenticated read on visible recipes. Authors can create; recipe owners and comment authors can delete. |
 
-Cover images live in the `RecipeImage` blob folder. Uploads use an **anonymous** storage client (publishable key only) so blobs are readable by every visitor.
+Cover images live in the `RecipeImage` blob folder. Uploads go through the signed-in `apiClient` (see [src/lib/storage.ts](src/lib/storage.ts)); blobs are readable by every signed-in visitor.
 
 ## Build / dev / lint commands
 
@@ -59,7 +59,7 @@ Run `npm run lint` after any TS change. For backend schema changes, re-run `npx 
 - **Single seed path.** The app self-seeds in the browser on the first authenticated visit to an empty database ([src/lib/seed.ts](src/lib/seed.ts)). The `/reset` admin page (authenticated only) deletes everything the RLS policy lets you delete and triggers a re-seed on the next visit. Recipes are created with `authorName: "Contoso Chef"` regardless of which user triggers the seed.
 - **Seed is idempotent** by `slug`. Don't change a recipe's slug.
 - **Auth is Microsoft Fabric SSO only.** Email/password is not enabled. `signInWithFabric` (popup) is used in local dev (`npm run dev`) and in standalone-hosted mode; `initEmbeddedAuth` runs automatically when the app is loaded inside the Fabric Portal.
-- **Storage uploads use the anonymous client** (publishable key only) so covers are publicly readable.
+- **Storage uploads use the signed-in `apiClient`** (see [src/lib/storage.ts](src/lib/storage.ts)) so blobs are readable by every signed-in visitor.
 - **Visibility**: Discover page filters strictly to `visibility = public`. `unlisted` is reachable only by direct ID.
 - **No new tooling** (lint/test/format) unless explicitly requested.
 - TypeScript strict, ESM (`"type": "module"`), React function components + hooks, React Router v6.
@@ -68,6 +68,6 @@ Run `npm run lint` after any TS change. For backend schema changes, re-run `npx 
 
 - Never commit `.env`, `.env.fabric`, or anything under `rayfin/.env`.
 - Schema migrations that drop data require `npx rayfin up --force` — only run after confirming with the user.
-- Anonymous data access to Fabric sources is **not supported** at release. This sample uses preview-only `@anonymous` decorators for the demo; production Fabric apps will need a tenant-level setting (coming post-GA) before similar flows work end-to-end.
+- Anonymous data access to Fabric sources is **not supported** at release. Don't add features that assume an unauthenticated visitor can read data — sign-in is required for every visitor.
 - Don't add a `user_id` filter on the client — RLS handles it.
 - For any Rayfin API question (decorators, client methods, schema, deploy), consult the `rayfin` skill / MCP server rather than guessing.

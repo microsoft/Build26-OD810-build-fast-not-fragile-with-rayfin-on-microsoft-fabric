@@ -10,6 +10,8 @@ services:
     allowedRedirectUris:
       - http://localhost:5173
       - http://localhost:5173/auth/callback
+      - https://avid-dune-700597304a-centraluseuap.webapp.dxt.fabricapps.net
+      - https://avid-dune-700597304a-centraluseuap.webapp.dxt.fabricapps.net/auth/callback
     fabric:
       enabled: true
   data:
