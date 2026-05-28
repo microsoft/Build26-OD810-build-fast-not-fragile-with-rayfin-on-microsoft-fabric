@@ -36,8 +36,16 @@ export default function Home() {
     setLikeCounts(counts);
   }, []);
 
-  // Initial fetch.
+  // Initial fetch — only when signed in. Without a session, every Rayfin
+  // request fails with "Authentication failed after token refresh", which
+  // would surface as an error to the user instead of a sign-in prompt.
   useEffect(() => {
+    if (!session.ready) return;
+    if (!session.isAuthenticated) {
+      setRecipes(null);
+      setError(null);
+      return;
+    }
     let cancelled = false;
     (async () => {
       try {
@@ -49,7 +57,7 @@ export default function Home() {
     return () => {
       cancelled = true;
     };
-  }, [refreshRecipes]);
+  }, [refreshRecipes, session.ready, session.isAuthenticated]);
 
   // Per-user "liked" set.
   useEffect(() => {
@@ -122,7 +130,7 @@ export default function Home() {
   }, [recipes, query, type]);
 
   const isEmptyDb = recipes !== null && recipes.length === 0;
-  const showFilters = !isEmptyDb && !seeding;
+  const showFilters = session.isAuthenticated && !isEmptyDb && !seeding;
 
   return (
     <div className="page">
@@ -195,14 +203,15 @@ export default function Home() {
           </div>
         )}
 
-        {!recipes && !error && <div className="grid-skeleton">Loading recipes…</div>}
-
-        {isEmptyDb && !seeding && !session.isAuthenticated && (
+        {session.ready && !session.isAuthenticated && (
           <div className="empty">
-            <h3>Catalogue is empty.</h3>
-            <p>Sign in to populate the demo with 100 sample recipes.</p>
+            <h3>Sign in to view the recipes</h3>
             <Link to="/login" className="btn btn-primary">Sign in</Link>
           </div>
+        )}
+
+        {session.isAuthenticated && !recipes && !error && (
+          <div className="grid-skeleton">Loading recipes…</div>
         )}
 
         {filtered && filtered.length === 0 && recipes && recipes.length > 0 && (

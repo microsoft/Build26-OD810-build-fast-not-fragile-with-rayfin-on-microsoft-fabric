@@ -23,6 +23,13 @@ export default function RecipeDetail() {
 
   useEffect(() => {
     if (!id) return;
+    if (!session.ready) return;
+    if (!session.isAuthenticated) {
+      setRecipe(null);
+      setImgUrl(null);
+      setError(null);
+      return;
+    }
     let cancelled = false;
     setRecipe(null);
     setImgUrl(null);
@@ -46,10 +53,15 @@ export default function RecipeDetail() {
     return () => {
       cancelled = true;
     };
-  }, [id]);
+  }, [id, session.ready, session.isAuthenticated]);
 
   useEffect(() => {
     if (!id) return;
+    if (!session.isAuthenticated) {
+      setLikeCount(0);
+      setLiked(false);
+      return;
+    }
     let cancelled = false;
     (async () => {
       try {
@@ -67,7 +79,7 @@ export default function RecipeDetail() {
     return () => {
       cancelled = true;
     };
-  }, [id, session.userId]);
+  }, [id, session.isAuthenticated, session.userId]);
 
   const onToggleLike = async () => {
     if (!session.userId || !id || busyLike) return;
@@ -112,6 +124,21 @@ export default function RecipeDetail() {
         <h1>Recipe not found</h1>
         <p>It may be private, removed, or the link may be incorrect.</p>
         <Link to="/" className="btn btn-primary">Back to discover</Link>
+      </div>
+    );
+  }
+
+  if (session.ready && !session.isAuthenticated) {
+    return (
+      <div className="page-narrow">
+        <h1>Sign in to view this recipe</h1>
+        <Link
+          to="/login"
+          state={{ from: { pathname: `/recipes/${id ?? ''}` } }}
+          className="btn btn-primary"
+        >
+          Sign in
+        </Link>
       </div>
     );
   }
