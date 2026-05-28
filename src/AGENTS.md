@@ -4,25 +4,24 @@ This project ships agent context: skills under `.agents/skills/` (`rayfin`, `fro
 
 ## Project
 
-**Contoso Chef** — a recipe-sharing sample app built with [Rayfin](https://aka.ms/rayfin) on Microsoft Fabric. React + Vite + TypeScript frontend, Rayfin code-first backend (entities, storage, RLS policies). Runs locally via Docker (`rayfin dev`) with email/password auth, deploys to Fabric (`rayfin up`) with Fabric SSO. See [README.md](README.md) for the full walkthrough and [SPEC.md](SPEC.md) for the original brief.
+**Contoso Chef** — a recipe-sharing sample app built with [Rayfin](https://aka.ms/rayfin) on Microsoft Fabric. React + Vite + TypeScript frontend, Rayfin code-first backend (entities, storage, RLS policies). The backend is hosted on Microsoft Fabric — there is no local backend; `npm run dev` points the Vite dev server at the deployed Fabric backend. Auth is Microsoft Fabric SSO (Entra ID). See [README.md](README.md) for the full walkthrough and [SPEC.md](SPEC.md) for the original brief.
 
 ## Repo map
 
 ```
 rayfin/                   Backend (Rayfin code-first definitions)
-  data/                   @entity classes (Recipe, Like) + schema.ts
+  data/                   @entity classes (Recipe, Like, Comment) + schema.ts
   storage/                @blob folders (RecipeImage) + schema.ts
   rayfin.yml              Backend config (auth, data, storage, static app)
   .env                    Backend env vars (interpolated into rayfin.yml)
 src/                      Frontend (React 18 + Vite + TS)
-  client.ts               Single ExtendableRayfinClient instance
+  client.ts               Single RayfinClient instance
   fabricAuth.ts           Embedded + popup Fabric SSO helpers
-  lib/                    recipes, likes, image, seed, types
+  lib/                    recipes, likes, comments, image, storage, seed, types
   components/             Layout, RecipeCard, RecipeForm, RequireAuth
-  pages/                  Home, RecipeDetail, New/Edit, MyRecipes, Liked, Login
+  pages/                  Home, RecipeDetail, New/Edit, MyRecipes, Liked, Login, Reset
   hooks/                  React hooks
 data/                     Seed dataset (recipes.json + images/*.jpg)
-scripts/seed.ts           Idempotent CLI seeder (tsx)
 public/, index.html, vite.config.ts, tsconfig*.json
 ```
 
@@ -31,35 +30,35 @@ public/, index.html, vite.config.ts, tsconfig*.json
 | Entity | Notes |
 |---|---|
 | `Recipe` | `slug` is the dedup key. `visibility`: `private` (owner only, default) / `unlisted` (link-only) / `public` (discoverable). Ingredients/steps/allergens stored as JSON strings. RLS enforced server-side — never add `user_id` filters client-side. |
-| `Like` | Per-user favorite. Anonymous-readable (public like counts). Authenticated users can only create/delete their own. |
+| `Like` | Per-user favorite. Anyone can read likes (so the UI can show like counts); only the like's owner can create or delete it. |
+| `Comment` | Per-user comment on a recipe. Anyone can read comments on non-private recipes; authors create; recipe owners and comment authors can delete. |
 
-Cover images live in the `RecipeImage` blob folder. Uploads use an **anonymous** client (publishable key only) so blobs are readable by every visitor.
+Cover images live in the `RecipeImage` blob folder. Uploads use an **anonymous** storage client (publishable key only) so blobs are readable by every visitor.
 
 ## Build / dev / lint commands
 
 | Command | What it does |
 |---|---|
-| `npm install` | Install deps (requires GitHub Packages auth — run `./setup-npm-auth.sh` first) |
-| `npm run rayfin:dev` | Start backend (Docker). Prints API URL + publishable key |
-| `npm run rayfin:dev:watch` | Auto-apply schema changes on save |
-| `npm run rayfin:dev:status` / `:down` / `:purge` | Show status / stop / nuke data |
-| `npm run rayfin:storage` | Apply `rayfin/storage/` config (run once after `rayfin dev`, and after any storage change) |
-| `npm run seed` | CLI seed via `tsx scripts/seed.ts` (uses demo user `chef@contoso.local`) |
-| `npm run dev` | Vite dev server (port 5173). `predev` regenerates `.env` via `rayfin env --framework vite` |
+| `npm install` | Install deps |
+| `npx rayfin login` | Sign in to Microsoft Fabric (Entra ID) |
+| `npx rayfin up` | Deploy the app: provisions the Fabric item, applies schema, builds, deploys, writes `.env.fabric` |
+| `npx rayfin up status` | Check deployment health + print hosting URL |
+| `npx rayfin up staticapp deploy` | Redeploy the frontend only (schema unchanged) |
+| `npx rayfin up db apply` | Apply schema-only (no static rebuild) |
+| `npx rayfin up --force` | Allow destructive schema migrations |
+| `npm run dev` | Vite dev server (port 5173). `predev` regenerates `.env` from `.env.fabric` via `rayfin env --framework vite` |
 | `npm run build` | `tsc -b && vite build` |
-| `npm run build:fabric` | Vite build in `fabric` mode (loads `.env.fabric`) |
+| `npm run build:fabric` | Vite build in `fabric` mode (loads `.env.fabric`) — used by `rayfin up` |
 | `npm run lint` | `tsc -b --noEmit` — this is the only lint/typecheck. **There are no unit tests.** |
-| `npx rayfin up` | Deploy to Fabric (provisions item, applies schema, builds, deploys) |
-| `npx rayfin up staticapp deploy` | Redeploy frontend only |
 
-Run `npm run lint` after any TS change. Verify backend schema changes with `rayfin dev watch` or `rayfin dev db apply`.
+Run `npm run lint` after any TS change. For backend schema changes, re-run `npx rayfin up` (or `npx rayfin up db apply` to skip the static rebuild) and verify with `npx rayfin up status`.
 
 ## Conventions
 
-- **Frontend never filters by `user_id`** — row-level policies do that on the backend.
-- **Seed is idempotent** by `slug`. Don't change a recipe's slug. Frontend seed (`src/lib/seed.ts`) and CLI seed (`scripts/seed.ts`) both dedupe and self-heal missing image blobs.
-- **Two seed paths**: CLI for local dev (`npm run seed`), in-browser self-seed on first authenticated visit for deployed Fabric backends. Both create recipes with `authorName: "Contoso Chef"`.
-- **Auth adapts at runtime**: email/password locally, Fabric SSO when `VITE_FABRIC_*` env vars are present (auto-written by `rayfin up` into `.env.fabric`). Same `rayfin.yml` supports both.
+- **Frontend never filters by `user_id`** — row-level policies do that on the backend. Adding a client-side `user_id` filter will hide records the user is legitimately allowed to see (e.g. public recipes from other authors).
+- **Single seed path.** The app self-seeds in the browser on the first authenticated visit to an empty database ([src/lib/seed.ts](src/lib/seed.ts)). The `/reset` admin page (authenticated only) deletes everything the RLS policy lets you delete and triggers a re-seed on the next visit. Recipes are created with `authorName: "Contoso Chef"` regardless of which user triggers the seed.
+- **Seed is idempotent** by `slug`. Don't change a recipe's slug.
+- **Auth is Microsoft Fabric SSO only.** Email/password is not enabled. `signInWithFabric` (popup) is used in local dev (`npm run dev`) and in standalone-hosted mode; `initEmbeddedAuth` runs automatically when the app is loaded inside the Fabric Portal.
 - **Storage uploads use the anonymous client** (publishable key only) so covers are publicly readable.
 - **Visibility**: Discover page filters strictly to `visibility = public`. `unlisted` is reachable only by direct ID.
 - **No new tooling** (lint/test/format) unless explicitly requested.
@@ -69,6 +68,6 @@ Run `npm run lint` after any TS change. Verify backend schema changes with `rayf
 
 - Never commit `.env`, `.env.fabric`, or anything under `rayfin/.env`.
 - Schema migrations that drop data require `npx rayfin up --force` — only run after confirming with the user.
-- When modifying `rayfin/storage/`, remind the user to run `npm run rayfin:storage` (not auto-applied by `rayfin dev`).
-- Don't add a `user_id` filter on the client — RLS handles it. Adding one will hide records the user is legitimately allowed to see (e.g. public recipes from other authors).
+- Anonymous data access to Fabric sources is **not supported** at release. This sample uses preview-only `@anonymous` decorators for the demo; production Fabric apps will need a tenant-level setting (coming post-GA) before similar flows work end-to-end.
+- Don't add a `user_id` filter on the client — RLS handles it.
 - For any Rayfin API question (decorators, client methods, schema, deploy), consult the `rayfin` skill / MCP server rather than guessing.

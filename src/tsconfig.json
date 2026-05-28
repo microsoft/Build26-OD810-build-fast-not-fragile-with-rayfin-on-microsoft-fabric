@@ -19,5 +19,5 @@
     "allowSyntheticDefaultImports": true,
     "types": ["vite/client", "node"]
   },
-  "include": ["src", "rayfin/data", "rayfin/storage", "scripts", "vite.config.ts"]
+  "include": ["src", "rayfin/data", "rayfin/storage", "vite.config.ts"]
 }

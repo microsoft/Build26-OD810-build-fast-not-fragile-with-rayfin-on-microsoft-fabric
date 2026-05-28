@@ -31,3 +31,4 @@ dist/
 .temp/
 TODO
 *.tsbuildinfo
+.deployments.json

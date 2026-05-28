@@ -9,7 +9,8 @@ if (!baseUrl || !publishableKey) {
   // eslint-disable-next-line no-console
   console.warn(
     '[contoso-chef] Missing VITE_RAYFIN_API_URL or VITE_RAYFIN_PUBLISHABLE_KEY. ' +
-      'Run `npx rayfin dev` and copy the publishable key into .env.'
+      'Run `npx rayfin up` to deploy a Fabric backend — it writes the URLs and ' +
+      'publishable key into `.env.fabric`.'
   );
 }
 

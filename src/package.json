@@ -11,21 +11,15 @@
     "build": "tsc -b && vite build",
     "build:fabric": "tsc -b && vite build --mode fabric",
     "preview": "vite preview",
-    "rayfin:dev": "rayfin dev",
-    "rayfin:dev:watch": "rayfin dev watch",
-    "rayfin:dev:status": "rayfin dev status",
-    "rayfin:dev:down": "rayfin dev --down",
-    "rayfin:dev:purge": "rayfin dev --purge",
-    "rayfin:storage": "rayfin dev storage apply",
     "rayfin:up": "rayfin up",
-    "seed": "tsx scripts/seed.ts",
+    "rayfin:up:status": "rayfin up status",
     "lint": "tsc -b --noEmit"
   },
   "dependencies": {
-    "@microsoft/rayfin-auth-provider-fabric": "latest",
-    "@microsoft/rayfin-client": "latest",
-    "@microsoft/rayfin-core": "latest",
-    "@microsoft/rayfin-storage": "latest",
+    "@microsoft/rayfin-auth-provider-fabric": "~1.29.0",
+    "@microsoft/rayfin-client": "~1.29.0",
+    "@microsoft/rayfin-core": "~1.29.0",
+    "@microsoft/rayfin-storage": "~1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"
@@ -36,7 +30,6 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
-    "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"
   }

@@ -16,8 +16,6 @@ const fabricOptions = fabricEnabled
     }
   : null;
 
-export const isFabricMode = fabricEnabled;
-
 /** Call once on app startup. Safe outside embedded Fabric mode (no-op). */
 export async function initFabricAuthIfHosted(): Promise<void> {
   if (!fabricOptions) return;
@@ -32,7 +30,9 @@ export async function initFabricAuthIfHosted(): Promise<void> {
 /** Call from a user gesture (button click) when popup-based Fabric SSO is needed. */
 export async function signInWithFabric(): Promise<void> {
   if (!fabricOptions) {
-    throw new Error('Fabric auth is not configured for this build.');
+    throw new Error(
+      'Fabric auth is not configured. Run `npx rayfin up` to deploy the backend — it writes the Fabric IDs into `.env.fabric`.'
+    );
   }
   await ensureSignedInWithFabric(client.auth, fabricOptions);
 }
