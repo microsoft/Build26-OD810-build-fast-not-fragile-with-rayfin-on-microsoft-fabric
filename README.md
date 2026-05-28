@@ -1,36 +1,3 @@
-# 🚀 Get Started
-
-**This repo is where attendees go to continue their learning after your session — and your Copilot agent will help you set it up.**
-
-### Step 1: Open your repo
-
-Open this repo in a **Codespace** (click the green **Code** button → **Create a Codespace**) — or clone it locally. Then open **GitHub Copilot Chat**.
-
-### Step 2: Add your content
-
-Give the agent something to work with. Drag files into the Explorer panel — session abstracts, outlines, screenshots, notes — and drop them in one of two places:
-
-| Where to put it | What goes there | Who sees it |
-|---|---|---|
-| **`_remove-before-publish/`** | Internal reference materials (abstracts, outlines, screenshots, planning docs) | **Copilot only** — never published |
-| **`/docs/`, `/src/`, or repo root** | Lab instructions, demo code, sample data, getting-started guides | **Attendees** — published with the repo |
-
-> 💡 Not sure? Start by dropping your session abstract or outline into `_remove-before-publish/`. The agent will figure out what to do with it.
-
-### Step 3: Ask the Agent
-
-Once your content is in the repo, use these three phrases with Copilot to build out your session repo:
-
-| Phrase to use with Copilot | What it does | When to run it |
-|---|---|---|
-| **"Help me get started"** | Sets up session title, description, outcomes, and owners | After you've added your session abstract or outline to the repo |
-| **"Help me refine content"** | Organizes your session content into the repo | Each time you add or update content |
-| **"Help me finalize"** | Final review, cleanup, and publication prep | When you're ready to publish |
-
-> 💡 **These three phrases are just the starting point.** Copilot can do much more — try asking it to brainstorm next steps for attendees, generate code samples, or build out your repo structure. Don't be afraid to put it in plan mode and ask for what you need.
-
----
-
 <a name="start-building"></a>
 <br>
 <p align="center">
@@ -39,33 +6,27 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 OD810: Build fast, not fragile on Microsoft Fabric
 
 ### Session Description
 
-*Add Session Description*
+Ship new apps in minutes without hand-rolling auth, data, and hosting. In this session, see how Microsoft Fabric gives developers and coding agents a code-first backend with typesafe schemas, APIs, functions, storage, and app hosting. Watch a simple app go from idea to running experience, with Fabric-native data ready for governance, analytics, and AI from day one.
 
-### 🏫 Getting started in a guided session
+### 🚀 Getting started
 
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
+To follow this session at your own pace, explore the sample app — **Contoso Chef**, a recipe-sharing app built with Rayfin on Microsoft Fabric:
 
-### 🏠 Getting started in your own environment
-
-If you're following these steps at your own pace:
 - Clone this repository
-- Set up your development environment
-- <!-- step 3 -->
+- Open the [`/src/`](./src) folder and follow the [Contoso Chef README](./src/README.md) for setup, local development with `rayfin dev`, and deploying to Microsoft Fabric with `rayfin up`
+- Browse the demo walkthrough in [`/docs/`](./docs) for the slide-by-slide narrative shown in the session
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, you will be able to:
 
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- **Understand the "prototype-to-production gap"** — why most vibe-coded apps and AI POCs don't reach production, and how starting on an enterprise-ready foundation avoids the rewrite.
+- **Use Microsoft Fabric and Rayfin to give developers and coding agents a code-first backend** with typesafe schemas, auth, APIs, storage, and hosting — plus identity, row-level security, and governance built in from day one.
+- **Use Rayfin apps to build custom dashboards and visualizations on top of Fabric-native data** — turning operational signals into actionable insights without a separate data integration or migration project.
 
 ### 💬 Keep Learning with Copilot
 
@@ -79,15 +40,21 @@ Use these as a starting point — or write your own!
 
 ### 💻 Technologies Used
 
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+1. [Microsoft Fabric](https://learn.microsoft.com/fabric/) — the unified, code-first analytics and app platform that powers Fabric apps.
+1. [Rayfin](https://aka.ms/rayfin) — the code-first toolkit for building enterprise apps on Microsoft Fabric (typesafe schemas, APIs, storage, auth, hosting).
+1. [Microsoft Entra ID](https://learn.microsoft.com/entra/fundamentals/what-is-entra) — identity and access for the deployed app via Fabric SSO.
+1. [GitHub Copilot](https://docs.github.com/copilot) — the coding-agent workflow used to scaffold and evolve the app inside platform guardrails (skills + MCP).
+1. [React](https://react.dev), [Vite](https://vite.dev), and [TypeScript](https://www.typescriptlang.org) — the frontend stack for the Contoso Chef sample app.
 
 ### 📚 Resources and Next Steps
 
 | Resource | Description |
 |:---------|:------------|
-| [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
+| [Build 2026 Next Steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
+| [Microsoft Fabric documentation](https://learn.microsoft.com/fabric/) | Full documentation for Microsoft Fabric, including data engineering, real-time intelligence, data warehouse, and app development |
+| [Rayfin on aka.ms/rayfin](https://aka.ms/rayfin) | Official Rayfin landing page — getting started, CLI reference, and templates for Fabric apps |
+| [Microsoft Entra ID documentation](https://learn.microsoft.com/entra/identity/) | Identity, authentication, and access-control documentation for Microsoft Entra ID |
+| [GitHub Copilot documentation](https://docs.github.com/copilot) | Learn how to use GitHub Copilot in your IDE, the CLI, and across the GitHub platform |
 
 
 ### 🌟 Microsoft Learn MCP Server
@@ -108,17 +75,12 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="http://github.com/sinedied">
+        <img src="https://github.com/sinedied.png" width="100px;" alt="Yohan Lasorsa"/><br />
+        <sub><b>Yohan Lasorsa</b></sub></a><br />
+            <a href="https://github.com/sinedied" title="talk">📢</a>
     </td>
 </tr></table>
 
