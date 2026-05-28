@@ -1,0 +1,7195 @@
+{
+  "schemaVersion": "1.1.0",
+  "datasetLanguage": "en",
+  "recipes": [
+    {
+      "id": "amaretti-cookies",
+      "name": "Amaretti Cookies",
+      "description": "Chewy Italian almond cookies with a lightly crisp sugar crust.",
+      "type": "dessert",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 12,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 10,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "egg whites",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": "about 60 g total"
+        },
+        {
+          "name": "almond flour",
+          "amount": "180",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "bitter almond extract",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "powdered sugar",
+          "amount": "30",
+          "unit": "g",
+          "notes": "for coating"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Preheat the oven to 180 C and line a tray with parchment paper."
+        },
+        {
+          "order": 2,
+          "instruction": "Whip the egg whites with a pinch of salt, add the sugar gradually, and fold in the almond flour, flour, and almond extract to form a thick dough."
+        },
+        {
+          "order": 3,
+          "instruction": "Roll small portions in powdered sugar, flatten lightly, and bake until cracked and just set."
+        }
+      ],
+      "image": {
+        "url": "images/amaretti-cookies.jpg",
+        "alt": "Amaretti Cookies plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 145,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "tree_nuts",
+        "gluten"
+      ]
+    },
+    {
+      "id": "banana-cake",
+      "name": "Banana Cake",
+      "description": "A moist loaf-style banana cake with chocolate folded through the batter.",
+      "type": "snack",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 8,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 45,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "ripe bananas",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "115",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "160",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "brown sugar",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "dark chocolate chips",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mash the bananas and whisk them with the eggs, sugars, and melted butter."
+        },
+        {
+          "order": 2,
+          "instruction": "Fold in the flour, baking powder, and chocolate until the batter is evenly mixed."
+        },
+        {
+          "order": 3,
+          "instruction": "Pour into a loaf pan and bake until the center is set and lightly golden."
+        }
+      ],
+      "image": {
+        "url": "images/banana-cake.jpg",
+        "alt": "Banana Cake plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 290,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "coconut-bean-rice-balls",
+      "name": "Coconut Bean Rice Balls",
+      "description": "Steamed glutinous rice dumplings with a sweet bean and coconut filling.",
+      "type": "dessert",
+      "cuisine": "Chinese",
+      "originCountry": "China",
+      "servings": 10,
+      "prepTimeMinutes": 35,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "cooked yellow soybeans",
+          "amount": "200",
+          "unit": "g",
+          "notes": "peeled if possible"
+        },
+        {
+          "name": "sugar",
+          "amount": "120",
+          "unit": "g",
+          "notes": "split between filling and dough"
+        },
+        {
+          "name": "egg yolks",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "coconut cream",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "desiccated coconut",
+          "amount": "4",
+          "unit": "tbsp",
+          "notes": "plus extra for coating"
+        },
+        {
+          "name": "glutinous rice flour",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Blend the soybeans with sugar, egg yolks, coconut cream, and coconut, then cook briefly if needed until the filling holds its shape."
+        },
+        {
+          "order": 2,
+          "instruction": "Mix the glutinous rice flour with warm sweetened water and oil to form a soft dough, then wrap portions around the filling."
+        },
+        {
+          "order": 3,
+          "instruction": "Steam the balls until translucent, brush lightly with water, and roll in coconut before serving."
+        }
+      ],
+      "image": {
+        "url": "images/coconut-bean-rice-balls.jpg",
+        "alt": "Coconut Bean Rice Balls plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 210,
+        "estimated": true
+      },
+      "allergens": [
+        "egg"
+      ]
+    },
+    {
+      "id": "banana-peanut-butter-brownies",
+      "name": "Banana Peanut Butter Brownies",
+      "description": "A flour-light brownie sweetened with banana and enriched with peanut butter.",
+      "type": "dessert",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 9,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 25,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "ripe bananas",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "natural peanut butter",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "unsweetened cocoa powder",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "vanilla extract",
+          "amount": "1",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "dark chocolate chips",
+          "amount": "50",
+          "unit": "g",
+          "notes": "optional"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mash the bananas until smooth, then whisk in the eggs, peanut butter, cocoa, and vanilla."
+        },
+        {
+          "order": 2,
+          "instruction": "Fold in the chocolate chips and spread the batter into a lined square pan."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until the center is just set, then cool before slicing."
+        }
+      ],
+      "image": {
+        "url": "images/banana-peanut-butter-brownies.jpg",
+        "alt": "Banana Peanut Butter Brownies plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 190,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "peanut"
+      ]
+    },
+    {
+      "id": "cinnamon-rolls",
+      "name": "Cinnamon Rolls",
+      "description": "Soft spiral buns with cinnamon filling and cream cheese glaze.",
+      "type": "breakfast",
+      "cuisine": "Swedish-inspired",
+      "originCountry": "Sweden",
+      "servings": 12,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 25,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "milk",
+          "amount": "240",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "active dry yeast",
+          "amount": "7",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "115",
+          "unit": "g",
+          "notes": "split between dough and filling"
+        },
+        {
+          "name": "flour",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "ground cinnamon",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "cream cheese",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mix warm milk, yeast, eggs, butter, sugar, and flour into a soft dough, then let it rise until doubled."
+        },
+        {
+          "order": 2,
+          "instruction": "Roll the dough out, spread with butter and cinnamon sugar, then roll up and slice into buns."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until golden and finish with a cream cheese glaze once slightly cooled."
+        }
+      ],
+      "image": {
+        "url": "images/cinnamon-rolls.jpg",
+        "alt": "Cinnamon Rolls plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 360,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "american-chocolate-chip-cookies",
+      "name": "American Chocolate Chip Cookies",
+      "description": "Large bakery-style cookies with brown sugar, honey, and milk chocolate chips.",
+      "type": "dessert",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 12,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "brown sugar",
+          "amount": "90",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "125",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "egg",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "honey",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "milk chocolate chips",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mix the dry ingredients in one bowl and whisk the melted butter with egg and honey in another."
+        },
+        {
+          "order": 2,
+          "instruction": "Combine the wet and dry mixtures, then fold in the chocolate chips."
+        },
+        {
+          "order": 3,
+          "instruction": "Shape large cookies and bake until the edges are set and the centers remain soft."
+        }
+      ],
+      "image": {
+        "url": "images/american-chocolate-chip-cookies.jpg",
+        "alt": "American Chocolate Chip Cookies plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 215,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "crema-catalana",
+      "name": "Crema Catalana",
+      "description": "A citrus-and-cinnamon scented custard with a thin caramelized sugar top.",
+      "type": "dessert",
+      "cuisine": "Spanish",
+      "originCountry": "Spain",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "milk",
+          "amount": "500",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "egg yolks",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cornstarch",
+          "amount": "25",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cinnamon stick",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "lemon zest",
+          "amount": "2",
+          "unit": "strips",
+          "notes": "use lemon and lime if available"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Infuse the hot milk with cinnamon and citrus zest, then strain it."
+        },
+        {
+          "order": 2,
+          "instruction": "Whisk the yolks with sugar and cornstarch, then cook with the infused milk until thickened."
+        },
+        {
+          "order": 3,
+          "instruction": "Chill the custards thoroughly, sprinkle with sugar, and caramelize just before serving."
+        }
+      ],
+      "image": {
+        "url": "images/crema-catalana.jpg",
+        "alt": "Crema Catalana plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 220,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk"
+      ]
+    },
+    {
+      "id": "sweet-crepes",
+      "name": "Sweet Crepes",
+      "description": "Thin French crepes that can be served with sugar, citrus, or jam.",
+      "type": "breakfast",
+      "cuisine": "French",
+      "originCountry": "France",
+      "servings": 10,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 20,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "6",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "750",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "beer",
+          "amount": "330",
+          "unit": "ml",
+          "notes": "optional but traditional in the source"
+        },
+        {
+          "name": "lemon or orange zest",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "30",
+          "unit": "g",
+          "notes": "for the pan"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Whisk the eggs and gradually add the flour and milk until the batter is smooth, then stir in the beer and zest."
+        },
+        {
+          "order": 2,
+          "instruction": "Rest the batter so the flour fully hydrates and thin it with a little water if needed."
+        },
+        {
+          "order": 3,
+          "instruction": "Cook thin ladlefuls in a lightly buttered skillet, flipping once the edges color."
+        }
+      ],
+      "image": {
+        "url": "images/sweet-crepes.jpg",
+        "alt": "Sweet Crepes plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 170,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chocolate-mascarpone-fondant",
+      "name": "Chocolate Mascarpone Fondant",
+      "description": "A rich, low-flour chocolate cake finished with a glossy chocolate glaze.",
+      "type": "dessert",
+      "cuisine": "French",
+      "originCountry": "France",
+      "servings": 10,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 20,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "dark chocolate",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "mascarpone",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "powdered sugar",
+          "amount": "75",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "milk chocolate",
+          "amount": "100",
+          "unit": "g",
+          "notes": "for the glaze"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Melt the dark chocolate, whisk it into softened mascarpone, then add eggs one at a time."
+        },
+        {
+          "order": 2,
+          "instruction": "Fold in powdered sugar and flour, pour into a pan, and bake gently until just set."
+        },
+        {
+          "order": 3,
+          "instruction": "Cool the cake completely, then spread over the milk-chocolate butter glaze before slicing."
+        }
+      ],
+      "image": {
+        "url": "images/chocolate-mascarpone-fondant.jpg",
+        "alt": "Chocolate Mascarpone Fondant plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 340,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "fromage-blanc-cake",
+      "name": "Fromage Blanc Cake",
+      "description": "A light farmhouse cheesecake-style cake with a softly set creamy crumb.",
+      "type": "dessert",
+      "cuisine": "German-inspired",
+      "originCountry": "Germany",
+      "servings": 8,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "fromage blanc",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "egg yolks",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "egg whites",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "vanilla or citrus zest",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mix the fromage blanc with sugar, egg yolks, flour, and vanilla or citrus until smooth."
+        },
+        {
+          "order": 2,
+          "instruction": "Whip the egg whites to soft peaks and fold them gently into the batter."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until set, then let the cake cool slowly in the oven before chilling or serving."
+        }
+      ],
+      "image": {
+        "url": "images/fromage-blanc-cake.jpg",
+        "alt": "Fromage Blanc Cake plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 210,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "praline-grand-cru-cake",
+      "name": "Praline Grand Cru Cake",
+      "description": "A celebration cake layered with hazelnut sponge, praline mousse, ganache, and glaze.",
+      "type": "dessert",
+      "cuisine": "French",
+      "originCountry": "France",
+      "servings": 12,
+      "prepTimeMinutes": 90,
+      "cookTimeMinutes": 30,
+      "difficulty": 3,
+      "ingredients": [
+        {
+          "name": "milk chocolate",
+          "amount": "310",
+          "unit": "g",
+          "notes": "used across the layers and glaze"
+        },
+        {
+          "name": "praline paste",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "hazelnuts",
+          "amount": "65",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "heavy cream",
+          "amount": "290",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": "split between yolks and whites"
+        },
+        {
+          "name": "gelatin",
+          "amount": "14",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Bake the hazelnut sponge and cover it with the crunchy praline biscuit layer."
+        },
+        {
+          "order": 2,
+          "instruction": "Prepare the praline ganache and mousse, then assemble them over the sponge in a ring mold and chill until firm."
+        },
+        {
+          "order": 3,
+          "instruction": "Finish with the milk-chocolate mirror glaze and toasted nuts once the cake is fully set."
+        }
+      ],
+      "image": {
+        "url": "images/praline-grand-cru-cake.jpg",
+        "alt": "Praline Grand Cru Cake plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 470,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "tree_nuts",
+        "gluten"
+      ]
+    },
+    {
+      "id": "jam-swiss-roll",
+      "name": "Jam Swiss Roll",
+      "description": "A flexible sponge cake rolled around a layer of jam or other filling.",
+      "type": "dessert",
+      "cuisine": "Swiss-inspired",
+      "originCountry": "Switzerland",
+      "servings": 10,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 10,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": "6",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "160",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "strawberry jam",
+          "amount": "150",
+          "unit": "g",
+          "notes": "or another filling"
+        },
+        {
+          "name": "butter",
+          "amount": "10",
+          "unit": "g",
+          "notes": "for the tray"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Whip the egg whites separately, beat the yolks with sugar, and fold everything together with the flour."
+        },
+        {
+          "order": 2,
+          "instruction": "Spread the batter thinly on a prepared tray and bake briefly until the sponge is just golden."
+        },
+        {
+          "order": 3,
+          "instruction": "Turn it onto a damp towel, roll to shape, then unroll, spread with jam, and roll again."
+        }
+      ],
+      "image": {
+        "url": "images/jam-swiss-roll.jpg",
+        "alt": "Jam Swiss Roll plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 225,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "gluten"
+      ]
+    },
+    {
+      "id": "fer-a-cheval-cookies",
+      "name": "Fer a Cheval Cookies",
+      "description": "Buttery sliced cookies rich with ground nuts and vanilla sugar.",
+      "type": "dessert",
+      "cuisine": "German-inspired",
+      "originCountry": "Germany",
+      "servings": 20,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "almonds or hazelnuts",
+          "amount": "170",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "vanilla sugar",
+          "amount": "6",
+          "unit": "packets",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cream the butter with the sugars, then work in the flour and finely chopped nuts to form a dough."
+        },
+        {
+          "order": 2,
+          "instruction": "Shape the dough into logs or crescents and chill briefly so they hold their shape."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until lightly colored and crisp at the edges."
+        }
+      ],
+      "image": {
+        "url": "images/fer-a-cheval-cookies.jpg",
+        "alt": "Fer a Cheval Cookies plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 140,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "tree_nuts",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chocolate-banana-loaf",
+      "name": "Chocolate Banana Loaf",
+      "description": "A soft banana cake dotted with chocolate and finished in a loaf tin.",
+      "type": "snack",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 8,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 40,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "dark chocolate",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "bananas",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "130",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "160",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "160",
+          "unit": "g",
+          "notes": "white and brown combined"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Saute the sliced bananas briefly in butter, then let them cool."
+        },
+        {
+          "order": 2,
+          "instruction": "Whisk the eggs and sugars, stir in flour, baking powder, melted butter, rum, and chopped chocolate, then fold in the bananas."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake in a loaf pan until browned and fully cooked through."
+        }
+      ],
+      "image": {
+        "url": "images/chocolate-banana-loaf.jpg",
+        "alt": "Chocolate Banana Loaf plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 315,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "apple-cinnamon-almond-cake",
+      "name": "Apple Cinnamon Almond Cake",
+      "description": "A tender apple cake perfumed with cinnamon and finished with sliced almonds.",
+      "type": "dessert",
+      "cuisine": "German-inspired",
+      "originCountry": "Germany",
+      "servings": 8,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 35,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cinnamon",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "apples",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "sliced almonds",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Whisk the eggs, sugar, melted butter, flour, baking powder, and cinnamon into a smooth batter."
+        },
+        {
+          "order": 2,
+          "instruction": "Fold in diced apples and pour the mixture into a prepared cake pan, then scatter almonds over the top."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until golden and springy in the center."
+        }
+      ],
+      "image": {
+        "url": "images/apple-cinnamon-almond-cake.jpg",
+        "alt": "Apple Cinnamon Almond Cake plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 275,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "tree_nuts",
+        "gluten"
+      ]
+    },
+    {
+      "id": "mug-cookie-cake",
+      "name": "Mug Cookie Cake",
+      "description": "A quick microwave cookie-style cake with a molten chocolate center.",
+      "type": "dessert",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 1,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 2,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "dark chocolate",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "18",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "egg",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "brown sugar",
+          "amount": "20",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "20",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "baking powder",
+          "amount": "0.25",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Melt the butter with most of the chocolate in a mug or small bowl."
+        },
+        {
+          "order": 2,
+          "instruction": "Stir in the sugar, egg, flour, baking powder, and the remaining chopped chocolate until smooth."
+        },
+        {
+          "order": 3,
+          "instruction": "Microwave until puffed and just cooked, keeping the center soft."
+        }
+      ],
+      "image": {
+        "url": "images/mug-cookie-cake.jpg",
+        "alt": "Mug Cookie Cake plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 410,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chestnut-cream-mug-cake",
+      "name": "Chestnut Cream Mug Cake",
+      "description": "A soft microwave sponge flavored with sweet chestnut spread.",
+      "type": "dessert",
+      "cuisine": "French",
+      "originCountry": "France",
+      "servings": 2,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 2,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "chestnut cream",
+          "amount": "4",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "egg",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Melt the butter, then whisk in the chestnut cream, milk, sugar, flour, and baking powder."
+        },
+        {
+          "order": 2,
+          "instruction": "Beat in the egg until the batter is smooth and divide it between two mugs."
+        },
+        {
+          "order": 3,
+          "instruction": "Microwave in short bursts until the cakes rise and the tops are no longer wet."
+        }
+      ],
+      "image": {
+        "url": "images/chestnut-cream-mug-cake.jpg",
+        "alt": "Chestnut Cream Mug Cake plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 260,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "pancakes",
+      "name": "Pancakes",
+      "description": "Fluffy breakfast pancakes that cook up quickly and stay tender inside.",
+      "type": "breakfast",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "350",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "baking powder",
+          "amount": "2",
+          "unit": "packets",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Whisk the eggs, milk, and melted butter together, then add the flour, sugar, and baking powder to make a smooth batter."
+        },
+        {
+          "order": 2,
+          "instruction": "Rest the batter briefly if you want extra fluffy pancakes."
+        },
+        {
+          "order": 3,
+          "instruction": "Cook ladlefuls on a lightly greased griddle until bubbles form, then flip and finish the second side."
+        }
+      ],
+      "image": {
+        "url": "images/pancakes.jpg",
+        "alt": "Pancakes plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 330,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "tarte-tatin",
+      "name": "Tarte Tatin",
+      "description": "An upside-down caramelized apple tart baked under a crisp puff pastry lid.",
+      "type": "dessert",
+      "cuisine": "French",
+      "originCountry": "France",
+      "servings": 8,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 40,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "sugar",
+          "amount": "450",
+          "unit": "g",
+          "notes": "split between caramel and apples"
+        },
+        {
+          "name": "apples",
+          "amount": "8",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "vanilla",
+          "amount": "2",
+          "unit": "pods",
+          "notes": ""
+        },
+        {
+          "name": "puff pastry",
+          "amount": "1",
+          "unit": "sheet",
+          "notes": ""
+        },
+        {
+          "name": "apple jelly",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": "optional glaze"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Make a caramel in the pan or mold, then cook the apple quarters with butter, sugar, and vanilla until tender."
+        },
+        {
+          "order": 2,
+          "instruction": "Pack the apples into the mold, top with puff pastry, and tuck the edges in."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until the pastry is golden, then turn the tart out while still warm."
+        }
+      ],
+      "image": {
+        "url": "images/tarte-tatin.jpg",
+        "alt": "Tarte Tatin plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 430,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "burger-buns",
+      "name": "Burger Buns",
+      "description": "Soft enriched sesame buns that stay tender enough for burgers and sandwiches.",
+      "type": "bread",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 6,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "fresh baker's yeast",
+          "amount": "1",
+          "unit": "packet",
+          "notes": ""
+        },
+        {
+          "name": "water",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "egg",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "sesame seeds",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mix the yeast with lukewarm water, then knead it with the flour, egg, butter, sugar, and salt until smooth."
+        },
+        {
+          "order": 2,
+          "instruction": "Let the dough rise, divide it into buns, shape them tightly, and proof again on a tray."
+        },
+        {
+          "order": 3,
+          "instruction": "Brush with egg wash, sprinkle with sesame seeds, and bake until evenly browned."
+        }
+      ],
+      "image": {
+        "url": "images/burger-buns.jpg",
+        "alt": "Burger Buns plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 235,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten",
+        "sesame"
+      ]
+    },
+    {
+      "id": "pasta-alla-carbonara",
+      "name": "Pasta alla Carbonara",
+      "description": "Roman-style pasta coated in eggs, cheese, pepper, and crisp guanciale.",
+      "type": "main",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 4,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "long pasta",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "6",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "guanciale or pancetta",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "black pepper",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the pasta in salted boiling water until al dente while crisping the guanciale in a skillet."
+        },
+        {
+          "order": 2,
+          "instruction": "Whisk the eggs with grated cheese and a generous amount of black pepper."
+        },
+        {
+          "order": 3,
+          "instruction": "Combine the hot pasta with the guanciale and egg mixture off the heat, loosening with pasta water until glossy."
+        }
+      ],
+      "image": {
+        "url": "images/pasta-alla-carbonara.jpg",
+        "alt": "Pasta alla Carbonara plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 690,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "lasagne-alla-bolognese",
+      "name": "Lasagne alla Bolognese",
+      "description": "Layered pasta with slow-cooked meat ragù, béchamel, and cheese.",
+      "type": "main",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 6,
+      "prepTimeMinutes": 45,
+      "cookTimeMinutes": 60,
+      "difficulty": 3,
+      "ingredients": [
+        {
+          "name": "ground beef",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "ground pork",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "peeled tomatoes",
+          "amount": "700",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "lasagna sheets",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "400",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "mozzarella and grated cheese",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the ragù with the meat, tomatoes, aromatics, and wine until thick and deeply flavored."
+        },
+        {
+          "order": 2,
+          "instruction": "Prepare the béchamel and season it with nutmeg, salt, and pepper."
+        },
+        {
+          "order": 3,
+          "instruction": "Layer pasta, ragù, béchamel, and cheeses, then bake until bubbling and browned."
+        }
+      ],
+      "image": {
+        "url": "images/lasagne-alla-bolognese.jpg",
+        "alt": "Lasagne alla Bolognese plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 720,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chicken-pad-thai",
+      "name": "Chicken Pad Thai",
+      "description": "Rice noodles stir-fried with chicken, tofu, eggs, peanuts, and bright finishing flavors.",
+      "type": "main",
+      "cuisine": "Thai",
+      "originCountry": "Thailand",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "rice noodles",
+          "amount": "285",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "chicken breast",
+          "amount": "350",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "firm tofu",
+          "amount": "180",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "roasted peanuts",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Soak the noodles until pliable and mix the sauce ingredients together."
+        },
+        {
+          "order": 2,
+          "instruction": "Stir-fry the chicken and tofu, add the noodles and sauce, then scramble the eggs into the pan."
+        },
+        {
+          "order": 3,
+          "instruction": "Finish with peanuts, bean sprouts, green onions, and lime wedges."
+        }
+      ],
+      "image": {
+        "url": "images/chicken-pad-thai.jpg",
+        "alt": "Chicken Pad Thai plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 560,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "soy",
+        "peanut"
+      ]
+    },
+    {
+      "id": "pizza-dough",
+      "name": "Pizza Dough",
+      "description": "A straightforward yeasted dough for one large thin-crust pizza.",
+      "type": "bread",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "lukewarm water",
+          "amount": "150",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "fresh yeast",
+          "amount": "15",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "salt",
+          "amount": "1",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "0.5",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Bloom the yeast with a little water, sugar, and flour, then let it sit until foamy."
+        },
+        {
+          "order": 2,
+          "instruction": "Mix the starter with the remaining flour, water, salt, and olive oil, then knead until smooth and elastic."
+        },
+        {
+          "order": 3,
+          "instruction": "Let the dough rise until doubled, stretch it out, and bake topped as desired."
+        }
+      ],
+      "image": {
+        "url": "images/pizza-dough.jpg",
+        "alt": "Pizza Dough plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 190,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "fresh-egg-pasta",
+      "name": "Fresh Egg Pasta",
+      "description": "Silky homemade pasta dough for tagliatelle, lasagnette, or filled shapes.",
+      "type": "main",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 2,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 3,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "wheat flour",
+          "amount": "160",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "fine semolina",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "egg",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "ricotta",
+          "amount": "250",
+          "unit": "g",
+          "notes": "optional filling from the source"
+        },
+        {
+          "name": "parmesan",
+          "amount": "30",
+          "unit": "g",
+          "notes": "optional finishing cheese"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mix the flour and semolina, then work in the eggs until a firm dough comes together."
+        },
+        {
+          "order": 2,
+          "instruction": "Knead until smooth, wrap, and let the dough rest before rolling it through a pasta machine."
+        },
+        {
+          "order": 3,
+          "instruction": "Cut the sheets into your chosen shape and boil briefly, then finish with butter, herbs, or another sauce."
+        }
+      ],
+      "image": {
+        "url": "images/fresh-egg-pasta.jpg",
+        "alt": "Fresh Egg Pasta plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 380,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chorizo-savory-loaf",
+      "name": "Chorizo Savory Loaf",
+      "description": "A simple savory quick bread packed with chorizo and cheese.",
+      "type": "appetizer",
+      "cuisine": "Spanish-inspired",
+      "originCountry": "Spain",
+      "servings": 8,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 35,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "230",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "150",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "grated cheese",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "chorizo",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "baking powder",
+          "amount": "1",
+          "unit": "packet",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Whisk the eggs with the milk, then add flour and baking powder to form a thick batter."
+        },
+        {
+          "order": 2,
+          "instruction": "Fold in the cheese and chopped chorizo until evenly distributed."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake in a loaf tin until puffed and deeply golden."
+        }
+      ],
+      "image": {
+        "url": "images/chorizo-savory-loaf.jpg",
+        "alt": "Chorizo Savory Loaf plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 280,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chorizo-bread-rolls",
+      "name": "Chorizo Bread Rolls",
+      "description": "Small yeasted rolls laminated with slices of chorizo and finished with coarse salt.",
+      "type": "snack",
+      "cuisine": "Spanish-inspired",
+      "originCountry": "Spain",
+      "servings": 9,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "bread flour",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "potato flakes",
+          "amount": "60",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "water",
+          "amount": "250",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "dry yeast",
+          "amount": "5",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "chorizo",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Knead the dough ingredients until smooth and let the dough rise until doubled."
+        },
+        {
+          "order": 2,
+          "instruction": "Roll the dough out, scatter over the chopped chorizo, roll it up, and cut it into equal pieces."
+        },
+        {
+          "order": 3,
+          "instruction": "Shape into rolls, brush with olive oil, sprinkle with coarse salt, and bake until browned."
+        }
+      ],
+      "image": {
+        "url": "images/chorizo-bread-rolls.jpg",
+        "alt": "Chorizo Bread Rolls plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 210,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "quiche-lorraine",
+      "name": "Quiche Lorraine",
+      "description": "A classic custard tart filled with bacon and cheese in a buttery crust.",
+      "type": "appetizer",
+      "cuisine": "French",
+      "originCountry": "France",
+      "servings": 6,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 45,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "shortcrust pastry",
+          "amount": "1",
+          "unit": "round",
+          "notes": ""
+        },
+        {
+          "name": "bacon lardons",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "cream or milk",
+          "amount": "250",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "gruyere",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Line a tart pan with the pastry and preheat the oven."
+        },
+        {
+          "order": 2,
+          "instruction": "Whisk the eggs with cream, then stir in the bacon and cheese."
+        },
+        {
+          "order": 3,
+          "instruction": "Pour the filling into the shell and bake until the center is just set."
+        }
+      ],
+      "image": {
+        "url": "images/quiche-lorraine.jpg",
+        "alt": "Quiche Lorraine plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 420,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chorizo-pinwheels",
+      "name": "Chorizo Pinwheels",
+      "description": "Puff pastry spirals filled with chorizo, tomato, egg, and cheese.",
+      "type": "appetizer",
+      "cuisine": "Spanish-inspired",
+      "originCountry": "Spain",
+      "servings": 8,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "puff pastry",
+          "amount": "1",
+          "unit": "sheet",
+          "notes": ""
+        },
+        {
+          "name": "mild chorizo",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "grated cheese",
+          "amount": "35",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "tomato sauce",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "egg",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Blend the chorizo with the cheese, egg, and tomato sauce into a spreadable filling."
+        },
+        {
+          "order": 2,
+          "instruction": "Spread the filling over the pastry, roll it up tightly, and chill briefly to firm."
+        },
+        {
+          "order": 3,
+          "instruction": "Slice into rounds and bake until the pastry is puffed and crisp."
+        }
+      ],
+      "image": {
+        "url": "images/chorizo-pinwheels.jpg",
+        "alt": "Chorizo Pinwheels plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 195,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "margherita-pizza",
+      "name": "Margherita Pizza",
+      "description": "A Neapolitan-style pizza topped simply with tomato, mozzarella, and basil.",
+      "type": "main",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 4,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 12,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "pizza dough",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "crushed tomatoes",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "fresh mozzarella",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "fresh basil",
+          "amount": "10",
+          "unit": "leaves",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Stretch the dough into a thin round and spread over a light layer of crushed tomatoes."
+        },
+        {
+          "order": 2,
+          "instruction": "Top with torn mozzarella and bake in a very hot oven until the crust blisters."
+        },
+        {
+          "order": 3,
+          "instruction": "Finish with basil leaves and a drizzle of olive oil before serving."
+        }
+      ],
+      "image": {
+        "url": "images/margherita-pizza.jpg",
+        "alt": "Margherita Pizza plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 420,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "risotto-alla-milanese",
+      "name": "Risotto alla Milanese",
+      "description": "Creamy saffron risotto finished with butter and Parmesan.",
+      "type": "main",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 30,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "Arborio rice",
+          "amount": "320",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "small",
+          "notes": ""
+        },
+        {
+          "name": "saffron",
+          "amount": "1",
+          "unit": "pinch",
+          "notes": ""
+        },
+        {
+          "name": "hot stock",
+          "amount": "1",
+          "unit": "liter",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "60",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "Parmesan",
+          "amount": "60",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Saute the onion in half the butter, add the rice, and toast it lightly."
+        },
+        {
+          "order": 2,
+          "instruction": "Add saffron and ladle in the hot stock gradually, stirring until the rice is creamy and tender."
+        },
+        {
+          "order": 3,
+          "instruction": "Finish with the remaining butter and Parmesan just before serving."
+        }
+      ],
+      "image": {
+        "url": "images/risotto-alla-milanese.jpg",
+        "alt": "Risotto alla Milanese plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 455,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "bruschetta-al-pomodoro",
+      "name": "Bruschetta al Pomodoro",
+      "description": "Toasted bread rubbed with garlic and topped with fresh tomatoes and basil.",
+      "type": "appetizer",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 8,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "rustic bread",
+          "amount": "6",
+          "unit": "slices",
+          "notes": ""
+        },
+        {
+          "name": "ripe tomatoes",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "1",
+          "unit": "clove",
+          "notes": ""
+        },
+        {
+          "name": "fresh basil",
+          "amount": "8",
+          "unit": "leaves",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Toast the bread slices until crisp and rub them with the garlic clove."
+        },
+        {
+          "order": 2,
+          "instruction": "Mix diced tomatoes with basil, olive oil, and salt."
+        },
+        {
+          "order": 3,
+          "instruction": "Spoon the tomato mixture over the toast and serve immediately."
+        }
+      ],
+      "image": {
+        "url": "images/bruschetta-al-pomodoro.jpg",
+        "alt": "Bruschetta al Pomodoro plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 115,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "minestrone",
+      "name": "Minestrone",
+      "description": "A hearty Italian vegetable soup with beans and pasta.",
+      "type": "main",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 35,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "olive oil",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "mixed diced vegetables",
+          "amount": "500",
+          "unit": "g",
+          "notes": "such as onion, carrot, celery, zucchini"
+        },
+        {
+          "name": "canned tomatoes",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cannellini beans",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "small pasta",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "vegetable stock",
+          "amount": "1.2",
+          "unit": "liters",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Saute the vegetables in olive oil until softened."
+        },
+        {
+          "order": 2,
+          "instruction": "Add tomatoes, beans, and stock, then simmer until the vegetables are tender."
+        },
+        {
+          "order": 3,
+          "instruction": "Cook the pasta in the soup, adjust seasoning, and serve with olive oil or Parmesan if desired."
+        }
+      ],
+      "image": {
+        "url": "images/minestrone.jpg",
+        "alt": "Minestrone plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 250,
+        "estimated": true
+      },
+      "allergens": [
+        "celery",
+        "gluten"
+      ]
+    },
+    {
+      "id": "pesto-alla-genovese",
+      "name": "Pesto alla Genovese",
+      "description": "A raw basil sauce blended with pine nuts, Parmesan, garlic, and olive oil.",
+      "type": "sauce",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "fresh basil",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "pine nuts",
+          "amount": "30",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "Parmesan",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "1",
+          "unit": "clove",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "100",
+          "unit": "ml",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Blend the basil, pine nuts, garlic, and Parmesan until finely chopped."
+        },
+        {
+          "order": 2,
+          "instruction": "Stream in the olive oil until the sauce is smooth but still vibrant green."
+        },
+        {
+          "order": 3,
+          "instruction": "Use immediately with pasta or refrigerate with a thin film of oil on top."
+        }
+      ],
+      "image": {
+        "url": "images/pesto-alla-genovese.jpg",
+        "alt": "Pesto alla Genovese plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 170,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "tree_nuts"
+      ]
+    },
+    {
+      "id": "tiramisu",
+      "name": "Tiramisu",
+      "description": "An airy coffee-soaked dessert layered with mascarpone cream and cocoa.",
+      "type": "dessert",
+      "cuisine": "Italian",
+      "originCountry": "Italy",
+      "servings": 8,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 0,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "ladyfingers",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "espresso",
+          "amount": "300",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "mascarpone",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cocoa powder",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Whisk the egg yolks with sugar, fold in mascarpone, and then fold in whipped egg whites."
+        },
+        {
+          "order": 2,
+          "instruction": "Dip the ladyfingers briefly in espresso and layer them with the mascarpone cream."
+        },
+        {
+          "order": 3,
+          "instruction": "Chill until set and dust generously with cocoa before serving."
+        }
+      ],
+      "image": {
+        "url": "images/tiramisu.jpg",
+        "alt": "Tiramisu plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 410,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "schnitzel",
+      "name": "Schnitzel",
+      "description": "Thin cutlets breaded and fried until crisp and deeply golden.",
+      "type": "main",
+      "cuisine": "German",
+      "originCountry": "Germany",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 10,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "veal or pork cutlets",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "breadcrumbs",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "neutral oil",
+          "amount": "250",
+          "unit": "ml",
+          "notes": "for frying"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Pound the cutlets thinly, then season them with salt and pepper."
+        },
+        {
+          "order": 2,
+          "instruction": "Coat each cutlet in flour, beaten egg, and breadcrumbs."
+        },
+        {
+          "order": 3,
+          "instruction": "Fry in hot oil until golden on both sides and serve immediately."
+        }
+      ],
+      "image": {
+        "url": "images/schnitzel.jpg",
+        "alt": "Schnitzel plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 470,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "gluten"
+      ]
+    },
+    {
+      "id": "german-potato-salad",
+      "name": "German Potato Salad",
+      "description": "A warm tangy salad of potatoes, bacon, vinegar, and mustard.",
+      "type": "side",
+      "cuisine": "German",
+      "originCountry": "Germany",
+      "servings": 6,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 25,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "waxy potatoes",
+          "amount": "1",
+          "unit": "kg",
+          "notes": ""
+        },
+        {
+          "name": "bacon",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "apple cider vinegar",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "mustard",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Boil the potatoes until tender, then slice them while still warm."
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the bacon and onion, then stir in vinegar, mustard, and a splash of water to make the dressing."
+        },
+        {
+          "order": 3,
+          "instruction": "Toss the warm potatoes with the dressing and let them absorb the flavor before serving."
+        }
+      ],
+      "image": {
+        "url": "images/german-potato-salad.jpg",
+        "alt": "German Potato Salad plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 235,
+        "estimated": true
+      },
+      "allergens": [
+        "mustard"
+      ]
+    },
+    {
+      "id": "soft-pretzels",
+      "name": "Soft Pretzels",
+      "description": "Chewy baked pretzels with a dark crust and a salty finish.",
+      "type": "bread",
+      "cuisine": "German",
+      "originCountry": "Germany",
+      "servings": 8,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "bread flour",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "dry yeast",
+          "amount": "7",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "warm water",
+          "amount": "300",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "baking soda",
+          "amount": "50",
+          "unit": "g",
+          "notes": "for the boiling bath"
+        },
+        {
+          "name": "coarse salt",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Knead the dough until smooth and let it rise until doubled in size."
+        },
+        {
+          "order": 2,
+          "instruction": "Shape the dough into pretzels, dip them briefly in a baking-soda bath, and score the thick part."
+        },
+        {
+          "order": 3,
+          "instruction": "Sprinkle with salt and bake until deeply browned."
+        }
+      ],
+      "image": {
+        "url": "images/soft-pretzels.jpg",
+        "alt": "Soft Pretzels plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 240,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "black-forest-cake",
+      "name": "Black Forest Cake",
+      "description": "Chocolate sponge layered with cherries and whipped cream.",
+      "type": "dessert",
+      "cuisine": "German",
+      "originCountry": "Germany",
+      "servings": 12,
+      "prepTimeMinutes": 45,
+      "cookTimeMinutes": 30,
+      "difficulty": 3,
+      "ingredients": [
+        {
+          "name": "chocolate sponge cake",
+          "amount": "2",
+          "unit": "layers",
+          "notes": ""
+        },
+        {
+          "name": "cherries",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "heavy cream",
+          "amount": "500",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "kirsch",
+          "amount": "60",
+          "unit": "ml",
+          "notes": "optional"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Bake or prepare the chocolate sponge layers and let them cool fully."
+        },
+        {
+          "order": 2,
+          "instruction": "Whip the cream with sugar and macerate the cherries with kirsch if using."
+        },
+        {
+          "order": 3,
+          "instruction": "Layer sponge, cherries, and cream, then coat the cake and chill before slicing."
+        }
+      ],
+      "image": {
+        "url": "images/black-forest-cake.jpg",
+        "alt": "Black Forest Cake plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 390,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten",
+        "sulfites"
+      ]
+    },
+    {
+      "id": "currywurst",
+      "name": "Currywurst",
+      "description": "Sliced sausage with a spiced tomato sauce and a shower of curry powder.",
+      "type": "main",
+      "cuisine": "German",
+      "originCountry": "Germany",
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "bratwurst",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "ketchup",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "tomato puree",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "curry powder",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "paprika",
+          "amount": "1",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Brown the sausages until cooked through and slice them into bite-size pieces."
+        },
+        {
+          "order": 2,
+          "instruction": "Simmer the ketchup with tomato puree, curry powder, paprika, and a splash of water to make the sauce."
+        },
+        {
+          "order": 3,
+          "instruction": "Coat the sausage pieces in sauce and finish with extra curry powder before serving."
+        }
+      ],
+      "image": {
+        "url": "images/currywurst.jpg",
+        "alt": "Currywurst plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 420,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "classic-cheeseburger",
+      "name": "Classic Cheeseburger",
+      "description": "A griddled beef burger served in a soft bun with cheese and crisp toppings.",
+      "type": "main",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 4,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "ground beef",
+          "amount": "600",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "burger buns",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "cheddar slices",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "lettuce and tomato",
+          "amount": "1",
+          "unit": "set",
+          "notes": ""
+        },
+        {
+          "name": "burger sauce",
+          "amount": "4",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Shape the beef into patties and season them well."
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the patties on a hot griddle, adding cheese near the end so it melts."
+        },
+        {
+          "order": 3,
+          "instruction": "Toast the buns and assemble with sauce, lettuce, tomato, and the hot patties."
+        }
+      ],
+      "image": {
+        "url": "images/classic-cheeseburger.jpg",
+        "alt": "Classic Cheeseburger plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 610,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten",
+        "egg",
+        "mustard"
+      ]
+    },
+    {
+      "id": "baked-mac-and-cheese",
+      "name": "Baked Mac and Cheese",
+      "description": "A creamy baked pasta casserole with a browned cheesy crust.",
+      "type": "main",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "elbow macaroni",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "600",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "60",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cheddar",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "breadcrumbs",
+          "amount": "50",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the macaroni until just shy of done."
+        },
+        {
+          "order": 2,
+          "instruction": "Make a roux with butter and flour, whisk in the milk, and melt in most of the cheese."
+        },
+        {
+          "order": 3,
+          "instruction": "Fold the pasta into the sauce, top with the remaining cheese and breadcrumbs, and bake until bubbling."
+        }
+      ],
+      "image": {
+        "url": "images/baked-mac-and-cheese.jpg",
+        "alt": "Baked Mac and Cheese plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 560,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "buffalo-wings",
+      "name": "Buffalo Wings",
+      "description": "Crisp chicken wings tossed in a buttery hot sauce.",
+      "type": "appetizer",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 40,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "chicken wings",
+          "amount": "1",
+          "unit": "kg",
+          "notes": ""
+        },
+        {
+          "name": "hot sauce",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "60",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "garlic powder",
+          "amount": "1",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "celery sticks",
+          "amount": "6",
+          "unit": "pieces",
+          "notes": "for serving"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Bake or air-fry the wings until crisp and cooked through."
+        },
+        {
+          "order": 2,
+          "instruction": "Warm the hot sauce with the butter and garlic powder until emulsified."
+        },
+        {
+          "order": 3,
+          "instruction": "Toss the wings in the sauce and serve immediately with celery."
+        }
+      ],
+      "image": {
+        "url": "images/buffalo-wings.jpg",
+        "alt": "Buffalo Wings plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 295,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "celery"
+      ]
+    },
+    {
+      "id": "bbq-pulled-pork-sandwich",
+      "name": "BBQ Pulled Pork Sandwich",
+      "description": "Slow-cooked pork shoulder shredded into smoky barbecue sauce.",
+      "type": "main",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 8,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 240,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "pork shoulder",
+          "amount": "1.5",
+          "unit": "kg",
+          "notes": ""
+        },
+        {
+          "name": "barbecue sauce",
+          "amount": "350",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "apple cider vinegar",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sandwich buns",
+          "amount": "8",
+          "unit": "pieces",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Season the pork shoulder and cook it low and slow until it pulls apart easily."
+        },
+        {
+          "order": 2,
+          "instruction": "Shred the meat and toss it with barbecue sauce, onion, and vinegar."
+        },
+        {
+          "order": 3,
+          "instruction": "Pile the pork onto soft buns and serve hot."
+        }
+      ],
+      "image": {
+        "url": "images/bbq-pulled-pork-sandwich.jpg",
+        "alt": "BBQ Pulled Pork Sandwich plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 540,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten",
+        "sulfites"
+      ]
+    },
+    {
+      "id": "american-apple-pie",
+      "name": "American Apple Pie",
+      "description": "A double-crust pie filled with spiced apples and baked until bubbling.",
+      "type": "dessert",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 8,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 50,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "pie dough",
+          "amount": "2",
+          "unit": "rounds",
+          "notes": ""
+        },
+        {
+          "name": "apples",
+          "amount": "900",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "brown sugar",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cinnamon",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "30",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Toss the sliced apples with sugar and cinnamon and line a pie dish with one crust."
+        },
+        {
+          "order": 2,
+          "instruction": "Fill the crust, dot with butter, and cover with the top crust, sealing and venting it."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until the filling bubbles and the pastry is deeply golden."
+        }
+      ],
+      "image": {
+        "url": "images/american-apple-pie.jpg",
+        "alt": "American Apple Pie plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 360,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "description": "A whiskey cocktail sweetened with sugar and perfumed with citrus and bitters.",
+      "type": "cocktail",
+      "cuisine": "American",
+      "originCountry": "USA",
+      "servings": 1,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "bourbon or rye whiskey",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sugar cube",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "Angostura bitters",
+          "amount": "2",
+          "unit": "dashes",
+          "notes": ""
+        },
+        {
+          "name": "orange peel",
+          "amount": "1",
+          "unit": "strip",
+          "notes": ""
+        },
+        {
+          "name": "ice",
+          "amount": "1",
+          "unit": "glassful",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Muddle the sugar cube with bitters and a few drops of water in a rocks glass."
+        },
+        {
+          "order": 2,
+          "instruction": "Add ice and pour over the whiskey, then stir until chilled."
+        },
+        {
+          "order": 3,
+          "instruction": "Express the orange peel over the drink and drop it into the glass."
+        }
+      ],
+      "image": {
+        "url": "images/old-fashioned.jpg",
+        "alt": "Old Fashioned plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 175,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "tortilla-espanola",
+      "name": "Tortilla Espanola",
+      "description": "A thick potato omelet served warm or at room temperature.",
+      "type": "main",
+      "cuisine": "Spanish",
+      "originCountry": "Spain",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 25,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "amount": "700",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "6",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the sliced potatoes and onion gently in olive oil until tender but not browned."
+        },
+        {
+          "order": 2,
+          "instruction": "Mix them with beaten eggs and return the mixture to the pan."
+        },
+        {
+          "order": 3,
+          "instruction": "Cook slowly on both sides until the tortilla is set through."
+        }
+      ],
+      "image": {
+        "url": "images/tortilla-espanola.jpg",
+        "alt": "Tortilla Espanola plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 240,
+        "estimated": true
+      },
+      "allergens": [
+        "egg"
+      ]
+    },
+    {
+      "id": "gazpacho",
+      "name": "Gazpacho",
+      "description": "A chilled tomato soup blended with cucumber, pepper, and olive oil.",
+      "type": "appetizer",
+      "cuisine": "Spanish",
+      "originCountry": "Spain",
+      "servings": 6,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "ripe tomatoes",
+          "amount": "1",
+          "unit": "kg",
+          "notes": ""
+        },
+        {
+          "name": "cucumber",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "red bell pepper",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "stale bread",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sherry vinegar",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Blend the tomatoes, cucumber, pepper, soaked bread, olive oil, and vinegar until completely smooth."
+        },
+        {
+          "order": 2,
+          "instruction": "Season with salt and chill until very cold."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve with a drizzle of olive oil and finely diced vegetables if desired."
+        }
+      ],
+      "image": {
+        "url": "images/gazpacho.jpg",
+        "alt": "Gazpacho plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 140,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten",
+        "sulfites"
+      ]
+    },
+    {
+      "id": "patatas-bravas",
+      "name": "Patatas Bravas",
+      "description": "Crisp fried potatoes served with a punchy tomato-paprika sauce.",
+      "type": "appetizer",
+      "cuisine": "Spanish",
+      "originCountry": "Spain",
+      "servings": 6,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 25,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "amount": "1",
+          "unit": "kg",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "tomato sauce",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "smoked paprika",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "2",
+          "unit": "cloves",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Roast or fry the potato cubes until deeply crisp on the outside."
+        },
+        {
+          "order": 2,
+          "instruction": "Simmer the tomato sauce with garlic and smoked paprika until bold and slightly thick."
+        },
+        {
+          "order": 3,
+          "instruction": "Spoon the bravas sauce over the potatoes and serve hot."
+        }
+      ],
+      "image": {
+        "url": "images/patatas-bravas.jpg",
+        "alt": "Patatas Bravas plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 210,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "seafood-paella",
+      "name": "Seafood Paella",
+      "description": "Saffron rice cooked in a wide pan with shrimp, mussels, and peppers.",
+      "type": "main",
+      "cuisine": "Spanish",
+      "originCountry": "Spain",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 35,
+      "difficulty": 3,
+      "ingredients": [
+        {
+          "name": "paella rice",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "shrimp",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "mussels",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "red bell pepper",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "saffron",
+          "amount": "1",
+          "unit": "pinch",
+          "notes": ""
+        },
+        {
+          "name": "fish stock",
+          "amount": "1",
+          "unit": "liter",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Saute the pepper and aromatics, then stir in the rice and saffron."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the stock and cook without stirring too much, arranging the seafood over the rice as it cooks."
+        },
+        {
+          "order": 3,
+          "instruction": "Let the rice finish until tender with a slightly crisp socarrat on the bottom."
+        }
+      ],
+      "image": {
+        "url": "images/seafood-paella.jpg",
+        "alt": "Seafood Paella plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 430,
+        "estimated": true
+      },
+      "allergens": [
+        "shellfish",
+        "mollusks"
+      ]
+    },
+    {
+      "id": "sangria",
+      "name": "Sangria",
+      "description": "A fruit-filled red wine punch chilled and lightly sparkling.",
+      "type": "drink",
+      "cuisine": "Spanish",
+      "originCountry": "Spain",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "red wine",
+          "amount": "750",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "orange",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "apple",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "orange juice",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sparkling water",
+          "amount": "250",
+          "unit": "ml",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Slice the fruit and combine it with the wine and orange juice."
+        },
+        {
+          "order": 2,
+          "instruction": "Chill the mixture so the fruit infuses the wine."
+        },
+        {
+          "order": 3,
+          "instruction": "Top with sparkling water just before serving over ice."
+        }
+      ],
+      "image": {
+        "url": "images/sangria.jpg",
+        "alt": "Sangria plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 145,
+        "estimated": true
+      },
+      "allergens": [
+        "sulfites"
+      ]
+    },
+    {
+      "id": "greek-salad",
+      "name": "Greek Salad",
+      "description": "A crisp village salad with tomatoes, cucumber, olives, and feta.",
+      "type": "appetizer",
+      "cuisine": "Greek",
+      "originCountry": "Greece",
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "tomatoes",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "cucumber",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "feta",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "black olives",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cut the vegetables into large rustic pieces and place them in a bowl."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the olives and feta, then drizzle over olive oil and a little vinegar if desired."
+        },
+        {
+          "order": 3,
+          "instruction": "Season simply and serve immediately."
+        }
+      ],
+      "image": {
+        "url": "images/greek-salad.jpg",
+        "alt": "Greek Salad plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 190,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "sulfites"
+      ]
+    },
+    {
+      "id": "moussaka",
+      "name": "Moussaka",
+      "description": "A baked casserole of eggplant, spiced meat, and creamy bechamel.",
+      "type": "main",
+      "cuisine": "Greek",
+      "originCountry": "Greece",
+      "servings": 6,
+      "prepTimeMinutes": 35,
+      "cookTimeMinutes": 50,
+      "difficulty": 3,
+      "ingredients": [
+        {
+          "name": "eggplants",
+          "amount": "2",
+          "unit": "large",
+          "notes": ""
+        },
+        {
+          "name": "ground lamb or beef",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "500",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "Parmesan or kefalotyri",
+          "amount": "60",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Roast or fry the eggplant slices until tender."
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the meat with tomatoes and spices into a thick sauce, then prepare the bechamel."
+        },
+        {
+          "order": 3,
+          "instruction": "Layer eggplant and meat in a baking dish, cover with bechamel, and bake until browned."
+        }
+      ],
+      "image": {
+        "url": "images/moussaka.jpg",
+        "alt": "Moussaka plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 500,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "tzatziki",
+      "name": "Tzatziki",
+      "description": "A cool yogurt dip flavored with cucumber, garlic, and dill.",
+      "type": "sauce",
+      "cuisine": "Greek",
+      "originCountry": "Greece",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "Greek yogurt",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cucumber",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "1",
+          "unit": "clove",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "dill",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Grate and squeeze the cucumber dry so the dip stays thick."
+        },
+        {
+          "order": 2,
+          "instruction": "Mix the cucumber with yogurt, garlic, dill, and olive oil."
+        },
+        {
+          "order": 3,
+          "instruction": "Chill before serving for the best texture and flavor."
+        }
+      ],
+      "image": {
+        "url": "images/tzatziki.jpg",
+        "alt": "Tzatziki plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 60,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "spanakopita",
+      "name": "Spanakopita",
+      "description": "Crisp phyllo pastry filled with spinach, herbs, and feta.",
+      "type": "appetizer",
+      "cuisine": "Greek",
+      "originCountry": "Greece",
+      "servings": 8,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 35,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "phyllo pastry",
+          "amount": "8",
+          "unit": "sheets",
+          "notes": ""
+        },
+        {
+          "name": "spinach",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "feta",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "egg",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "4",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the spinach down and squeeze out the excess moisture, then mix it with feta and egg."
+        },
+        {
+          "order": 2,
+          "instruction": "Layer oiled phyllo sheets in a pan, add the filling, and cover with more phyllo."
+        },
+        {
+          "order": 3,
+          "instruction": "Score the top and bake until golden and crisp."
+        }
+      ],
+      "image": {
+        "url": "images/spanakopita.jpg",
+        "alt": "Spanakopita plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 265,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "guacamole",
+      "name": "Guacamole",
+      "description": "A chunky avocado dip brightened with lime, onion, and cilantro.",
+      "type": "appetizer",
+      "cuisine": "Mexican",
+      "originCountry": "Mexico",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "ripe avocados",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "lime juice",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "white onion",
+          "amount": "0.5",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "cilantro",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "jalapeno",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mash the avocados lightly so the texture stays chunky."
+        },
+        {
+          "order": 2,
+          "instruction": "Fold in the lime juice, onion, cilantro, and jalapeno."
+        },
+        {
+          "order": 3,
+          "instruction": "Season with salt and serve immediately."
+        }
+      ],
+      "image": {
+        "url": "images/guacamole.jpg",
+        "alt": "Guacamole plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 120,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "tacos-al-pastor",
+      "name": "Tacos al Pastor",
+      "description": "Corn tortillas filled with marinated pork, onion, cilantro, and pineapple.",
+      "type": "main",
+      "cuisine": "Mexican",
+      "originCountry": "Mexico",
+      "servings": 6,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 20,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "pork shoulder",
+          "amount": "800",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "achiote paste",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "pineapple",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "corn tortillas",
+          "amount": "12",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "onion and cilantro",
+          "amount": "1",
+          "unit": "set",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Marinate the pork with achiote, citrus, and spices, then grill or roast it until cooked through."
+        },
+        {
+          "order": 2,
+          "instruction": "Slice the meat thinly and warm the tortillas."
+        },
+        {
+          "order": 3,
+          "instruction": "Assemble the tacos with pork, pineapple, onion, and cilantro."
+        }
+      ],
+      "image": {
+        "url": "images/tacos-al-pastor.jpg",
+        "alt": "Tacos al Pastor plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 420,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "chicken-enchiladas",
+      "name": "Chicken Enchiladas",
+      "description": "Rolled tortillas baked in red sauce with chicken and cheese.",
+      "type": "main",
+      "cuisine": "Mexican",
+      "originCountry": "Mexico",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 25,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "corn tortillas",
+          "amount": "12",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "shredded chicken",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "enchilada sauce",
+          "amount": "500",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "grated cheese",
+          "amount": "180",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Fill the tortillas with chicken and a little onion, then roll them up in a baking dish."
+        },
+        {
+          "order": 2,
+          "instruction": "Cover with enchilada sauce and grated cheese."
+        },
+        {
+          "order": 3,
+          "instruction": "Bake until hot and bubbling, then serve with fresh toppings if desired."
+        }
+      ],
+      "image": {
+        "url": "images/chicken-enchiladas.jpg",
+        "alt": "Chicken Enchiladas plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 470,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "pico-de-gallo",
+      "name": "Pico de Gallo",
+      "description": "A fresh salsa of tomatoes, onion, chile, lime, and cilantro.",
+      "type": "sauce",
+      "cuisine": "Mexican",
+      "originCountry": "Mexico",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "tomatoes",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "white onion",
+          "amount": "0.5",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "jalapeno",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "lime juice",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "cilantro",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Dice the tomatoes, onion, and jalapeno very finely."
+        },
+        {
+          "order": 2,
+          "instruction": "Mix everything with lime juice and cilantro."
+        },
+        {
+          "order": 3,
+          "instruction": "Season with salt and let it sit for a few minutes before serving."
+        }
+      ],
+      "image": {
+        "url": "images/pico-de-gallo.jpg",
+        "alt": "Pico de Gallo plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 25,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "description": "A lime-forward tequila cocktail with a salt rim.",
+      "type": "cocktail",
+      "cuisine": "Mexican",
+      "originCountry": "Mexico",
+      "servings": 1,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "tequila blanco",
+          "amount": "50",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "triple sec",
+          "amount": "25",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "lime juice",
+          "amount": "25",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "salt",
+          "amount": "1",
+          "unit": "pinch",
+          "notes": "for the rim"
+        },
+        {
+          "name": "ice",
+          "amount": "1",
+          "unit": "glassful",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Rim a glass with salt if desired."
+        },
+        {
+          "order": 2,
+          "instruction": "Shake the tequila, triple sec, and lime juice with ice until very cold."
+        },
+        {
+          "order": 3,
+          "instruction": "Strain into the prepared glass and serve immediately."
+        }
+      ],
+      "image": {
+        "url": "images/margarita.jpg",
+        "alt": "Margarita plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 210,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "butter-chicken",
+      "name": "Butter Chicken",
+      "description": "Tender chicken simmered in a silky tomato-butter sauce.",
+      "type": "main",
+      "cuisine": "Indian",
+      "originCountry": "India",
+      "servings": 6,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 30,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": "800",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "yogurt",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "tomato puree",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "60",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cream",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "garam masala",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Marinate the chicken in yogurt and spices, then sear it until lightly browned."
+        },
+        {
+          "order": 2,
+          "instruction": "Simmer the tomato puree with butter and spices to build the sauce."
+        },
+        {
+          "order": 3,
+          "instruction": "Return the chicken to the pan, add the cream, and cook until tender and glossy."
+        }
+      ],
+      "image": {
+        "url": "images/butter-chicken.jpg",
+        "alt": "Butter Chicken plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 430,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "chana-masala",
+      "name": "Chana Masala",
+      "description": "A warmly spiced chickpea curry with tomato, onion, and ginger.",
+      "type": "main",
+      "cuisine": "Indian",
+      "originCountry": "India",
+      "servings": 4,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "amount": "800",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "large",
+          "notes": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "garlic and ginger",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "garam masala",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the onion until golden, then add garlic, ginger, and spices."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the tomatoes and simmer until thickened."
+        },
+        {
+          "order": 3,
+          "instruction": "Stir in the chickpeas and cook until the flavors have fully blended."
+        }
+      ],
+      "image": {
+        "url": "images/chana-masala.jpg",
+        "alt": "Chana Masala plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 320,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "samosas",
+      "name": "Samosas",
+      "description": "Fried pastry pockets filled with spiced potatoes and peas.",
+      "type": "appetizer",
+      "cuisine": "Indian",
+      "originCountry": "India",
+      "servings": 8,
+      "prepTimeMinutes": 35,
+      "cookTimeMinutes": 25,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "potatoes",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "peas",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "ghee or oil",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "ground cumin and garam masala",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Make a firm dough with flour, oil, salt, and water, then let it rest."
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the potatoes and peas with the spices to make a dry filling."
+        },
+        {
+          "order": 3,
+          "instruction": "Shape the dough into cones, fill them, seal them well, and fry until crisp."
+        }
+      ],
+      "image": {
+        "url": "images/samosas.jpg",
+        "alt": "Samosas plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 230,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "naan",
+      "name": "Naan",
+      "description": "Soft skillet-flatbread brushed with butter and ready for curries.",
+      "type": "bread",
+      "cuisine": "Indian",
+      "originCountry": "India",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 12,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "yogurt",
+          "amount": "120",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "dry yeast",
+          "amount": "7",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "water",
+          "amount": "180",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mix the dough ingredients and knead until smooth, then let the dough rise."
+        },
+        {
+          "order": 2,
+          "instruction": "Divide into balls and roll each into an oval flatbread."
+        },
+        {
+          "order": 3,
+          "instruction": "Cook in a hot pan or oven until puffed and blistered, then brush with butter."
+        }
+      ],
+      "image": {
+        "url": "images/naan.jpg",
+        "alt": "Naan plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 220,
+        "estimated": true
+      },
+      "allergens": [
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "mango-lassi",
+      "name": "Mango Lassi",
+      "description": "A chilled yogurt drink blended with sweet mango and cardamom.",
+      "type": "drink",
+      "cuisine": "Indian",
+      "originCountry": "India",
+      "servings": 2,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "mango",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "plain yogurt",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "milk",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "cardamom",
+          "amount": "1",
+          "unit": "pinch",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Blend the mango with yogurt, milk, sugar, and cardamom until smooth."
+        },
+        {
+          "order": 2,
+          "instruction": "Adjust the thickness with more milk if needed."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve very cold."
+        }
+      ],
+      "image": {
+        "url": "images/mango-lassi.jpg",
+        "alt": "Mango Lassi plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 180,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "thai-green-curry",
+      "name": "Thai Green Curry",
+      "description": "A fragrant coconut curry with green curry paste, vegetables, and herbs.",
+      "type": "main",
+      "cuisine": "Thai",
+      "originCountry": "Thailand",
+      "servings": 4,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 20,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "green curry paste",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "coconut milk",
+          "amount": "400",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "chicken",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggplant or green beans",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "fish sauce",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "Thai basil",
+          "amount": "1",
+          "unit": "handful",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Fry the curry paste briefly in a little coconut milk until fragrant."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the chicken, remaining coconut milk, and vegetables, then simmer until tender."
+        },
+        {
+          "order": 3,
+          "instruction": "Season with fish sauce and finish with Thai basil."
+        }
+      ],
+      "image": {
+        "url": "images/thai-green-curry.jpg",
+        "alt": "Thai Green Curry plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 390,
+        "estimated": true
+      },
+      "allergens": [
+        "fish"
+      ]
+    },
+    {
+      "id": "som-tam",
+      "name": "Som Tam",
+      "description": "A crunchy green papaya salad dressed with lime, fish sauce, and chili.",
+      "type": "appetizer",
+      "cuisine": "Thai",
+      "originCountry": "Thailand",
+      "servings": 4,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "green papaya",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "long beans",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "lime juice",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "fish sauce",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "roasted peanuts",
+          "amount": "30",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Shred the papaya and cut the beans into short lengths."
+        },
+        {
+          "order": 2,
+          "instruction": "Pound the aromatics lightly and mix them with lime juice and fish sauce to form the dressing."
+        },
+        {
+          "order": 3,
+          "instruction": "Toss everything together and finish with peanuts."
+        }
+      ],
+      "image": {
+        "url": "images/som-tam.jpg",
+        "alt": "Som Tam plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 95,
+        "estimated": true
+      },
+      "allergens": [
+        "fish",
+        "peanut"
+      ]
+    },
+    {
+      "id": "thai-iced-tea",
+      "name": "Thai Iced Tea",
+      "description": "Strong black tea sweetened and topped with creamy milk over ice.",
+      "type": "drink",
+      "cuisine": "Thai",
+      "originCountry": "Thailand",
+      "servings": 2,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 5,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "black tea",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "water",
+          "amount": "400",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "sweetened condensed milk",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "ice",
+          "amount": "2",
+          "unit": "glasses",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Brew the tea strongly and dissolve the sugar while it is still hot."
+        },
+        {
+          "order": 2,
+          "instruction": "Cool the tea and pour it over glasses filled with ice."
+        },
+        {
+          "order": 3,
+          "instruction": "Top with sweetened condensed milk so it ribbons through the drink."
+        }
+      ],
+      "image": {
+        "url": "images/thai-iced-tea.jpg",
+        "alt": "Thai Iced Tea plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 150,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "miso-soup",
+      "name": "Miso Soup",
+      "description": "A light dashi broth with miso, tofu, and scallions.",
+      "type": "appetizer",
+      "cuisine": "Japanese",
+      "originCountry": "Japan",
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "dashi stock",
+          "amount": "800",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "white miso",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "silken tofu",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "scallions",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "wakame",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": "optional"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Bring the dashi to a gentle simmer with tofu and wakame."
+        },
+        {
+          "order": 2,
+          "instruction": "Dissolve the miso in a little hot broth, then stir it back into the pot off the boil."
+        },
+        {
+          "order": 3,
+          "instruction": "Finish with sliced scallions and serve immediately."
+        }
+      ],
+      "image": {
+        "url": "images/miso-soup.jpg",
+        "alt": "Miso Soup plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 55,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "fish"
+      ]
+    },
+    {
+      "id": "chicken-teriyaki",
+      "name": "Chicken Teriyaki",
+      "description": "Pan-glazed chicken coated in a sweet-salty soy sauce glaze.",
+      "type": "main",
+      "cuisine": "Japanese",
+      "originCountry": "Japan",
+      "servings": 4,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 15,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": "600",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "mirin",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "ginger",
+          "amount": "1",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Brown the chicken thighs skin-side down until the fat renders."
+        },
+        {
+          "order": 2,
+          "instruction": "Pour in the soy sauce, mirin, sugar, and ginger."
+        },
+        {
+          "order": 3,
+          "instruction": "Simmer until the chicken is cooked and the sauce turns glossy and syrupy."
+        }
+      ],
+      "image": {
+        "url": "images/chicken-teriyaki.jpg",
+        "alt": "Chicken Teriyaki plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 340,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "gluten"
+      ]
+    },
+    {
+      "id": "shoyu-ramen",
+      "name": "Shoyu Ramen",
+      "description": "A soy-seasoned noodle soup with broth, toppings, and springy wheat noodles.",
+      "type": "main",
+      "cuisine": "Japanese",
+      "originCountry": "Japan",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "ramen noodles",
+          "amount": "4",
+          "unit": "portions",
+          "notes": ""
+        },
+        {
+          "name": "chicken stock",
+          "amount": "1.2",
+          "unit": "liters",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "80",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "soft-boiled eggs",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "scallions",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "roast pork",
+          "amount": "200",
+          "unit": "g",
+          "notes": "optional topping"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Simmer the stock with soy sauce and aromatics to build the soup base."
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the noodles separately until just tender."
+        },
+        {
+          "order": 3,
+          "instruction": "Assemble bowls with noodles, hot broth, and toppings like eggs, scallions, and sliced pork."
+        }
+      ],
+      "image": {
+        "url": "images/shoyu-ramen.jpg",
+        "alt": "Shoyu Ramen plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 480,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "soy",
+        "gluten"
+      ]
+    },
+    {
+      "id": "gyoza",
+      "name": "Gyoza",
+      "description": "Japanese pan-fried dumplings with crisp bottoms and juicy filling.",
+      "type": "appetizer",
+      "cuisine": "Japanese",
+      "originCountry": "Japan",
+      "servings": 6,
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 10,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "gyoza wrappers",
+          "amount": "30",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "ground pork",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cabbage",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Mix the pork with finely chopped cabbage, soy sauce, sesame oil, and seasonings."
+        },
+        {
+          "order": 2,
+          "instruction": "Fill and pleat the wrappers into small crescent dumplings."
+        },
+        {
+          "order": 3,
+          "instruction": "Pan-fry until golden, add a splash of water, cover to steam, and finish uncovered."
+        }
+      ],
+      "image": {
+        "url": "images/gyoza.jpg",
+        "alt": "Gyoza plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 250,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "gluten",
+        "sesame"
+      ]
+    },
+    {
+      "id": "vegetable-spring-rolls",
+      "name": "Vegetable Spring Rolls",
+      "description": "Crisp fried rolls filled with cabbage, carrots, and aromatics.",
+      "type": "appetizer",
+      "cuisine": "Chinese",
+      "originCountry": "China",
+      "servings": 8,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 10,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "spring roll wrappers",
+          "amount": "16",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "cabbage",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "carrots",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Stir-fry the vegetables briefly with soy sauce and sesame oil, then let the filling cool."
+        },
+        {
+          "order": 2,
+          "instruction": "Roll the filling tightly in the wrappers and seal the edges."
+        },
+        {
+          "order": 3,
+          "instruction": "Fry until golden and crisp, then drain well before serving."
+        }
+      ],
+      "image": {
+        "url": "images/vegetable-spring-rolls.jpg",
+        "alt": "Vegetable Spring Rolls plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 160,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "gluten",
+        "sesame"
+      ]
+    },
+    {
+      "id": "kung-pao-chicken",
+      "name": "Kung Pao Chicken",
+      "description": "A fast stir-fry of chicken, chilies, peanuts, and a glossy savory sauce.",
+      "type": "main",
+      "cuisine": "Chinese",
+      "originCountry": "China",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "rice vinegar",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "dried red chilies",
+          "amount": "6",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "peanuts",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "scallions",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Marinate the chicken briefly and stir-fry it until nearly cooked."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the chilies, scallions, and sauce ingredients and cook until glossy."
+        },
+        {
+          "order": 3,
+          "instruction": "Stir in the peanuts right at the end and serve hot."
+        }
+      ],
+      "image": {
+        "url": "images/kung-pao-chicken.jpg",
+        "alt": "Kung Pao Chicken plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 360,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "peanut",
+        "gluten"
+      ]
+    },
+    {
+      "id": "egg-fried-rice",
+      "name": "Egg Fried Rice",
+      "description": "A quick wok-fried rice with eggs, scallions, and soy sauce.",
+      "type": "main",
+      "cuisine": "Chinese",
+      "originCountry": "China",
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "cooked rice",
+          "amount": "800",
+          "unit": "g",
+          "notes": "preferably day-old"
+        },
+        {
+          "name": "eggs",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "scallions",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "neutral oil",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Scramble the eggs in a hot wok and set them aside."
+        },
+        {
+          "order": 2,
+          "instruction": "Stir-fry the rice until the grains separate, then season with soy sauce."
+        },
+        {
+          "order": 3,
+          "instruction": "Return the eggs to the wok with scallions and toss everything together."
+        }
+      ],
+      "image": {
+        "url": "images/egg-fried-rice.jpg",
+        "alt": "Egg Fried Rice plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 320,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "soy",
+        "gluten"
+      ]
+    },
+    {
+      "id": "mapo-tofu",
+      "name": "Mapo Tofu",
+      "description": "Silken tofu and minced meat simmered in a spicy, savory bean sauce.",
+      "type": "main",
+      "cuisine": "Chinese",
+      "originCountry": "China",
+      "servings": 4,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "silken tofu",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "ground pork",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "doubanjiang",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "scallions",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "cornstarch",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Brown the pork and fry it briefly with the bean paste and aromatics."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the tofu gently with a little water or stock and simmer carefully."
+        },
+        {
+          "order": 3,
+          "instruction": "Thicken lightly with cornstarch slurry and finish with scallions."
+        }
+      ],
+      "image": {
+        "url": "images/mapo-tofu.jpg",
+        "alt": "Mapo Tofu plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 260,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "gluten"
+      ]
+    },
+    {
+      "id": "chicken-tagine-with-preserved-lemon",
+      "name": "Chicken Tagine with Preserved Lemon",
+      "description": "A fragrant Moroccan braise with olives, spices, and bright preserved lemon.",
+      "type": "main",
+      "cuisine": "Moroccan",
+      "originCountry": "Morocco",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 50,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": "1",
+          "unit": "kg",
+          "notes": ""
+        },
+        {
+          "name": "onions",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "preserved lemon",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "green olives",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "ground ginger and turmeric",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Brown the chicken lightly and soften the onions with the spices."
+        },
+        {
+          "order": 2,
+          "instruction": "Add water, preserved lemon, and olives, then braise until the chicken is very tender."
+        },
+        {
+          "order": 3,
+          "instruction": "Reduce the sauce slightly and serve with bread or couscous."
+        }
+      ],
+      "image": {
+        "url": "images/chicken-tagine-with-preserved-lemon.jpg",
+        "alt": "Chicken Tagine with Preserved Lemon plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 360,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "vegetable-couscous",
+      "name": "Vegetable Couscous",
+      "description": "Fluffy couscous with a broth of vegetables and chickpeas.",
+      "type": "main",
+      "cuisine": "Moroccan",
+      "originCountry": "Morocco",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 35,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "couscous",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "carrots and zucchini",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "chickpeas",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "vegetable stock",
+          "amount": "800",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "ground cumin",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the vegetables and chickpeas in the stock with the spices until tender."
+        },
+        {
+          "order": 2,
+          "instruction": "Steam or hydrate the couscous until fluffy."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve the vegetables and broth over the couscous."
+        }
+      ],
+      "image": {
+        "url": "images/vegetable-couscous.jpg",
+        "alt": "Vegetable Couscous plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 350,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "zaalouk",
+      "name": "Zaalouk",
+      "description": "A smoky eggplant and tomato dip served warm or at room temperature.",
+      "type": "side",
+      "cuisine": "Moroccan",
+      "originCountry": "Morocco",
+      "servings": 6,
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "eggplants",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "2",
+          "unit": "cloves",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "ground cumin",
+          "amount": "1",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the eggplant until very soft, then mash it roughly."
+        },
+        {
+          "order": 2,
+          "instruction": "Simmer it with tomatoes, garlic, olive oil, and cumin until the mixture thickens."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve with bread, warm or cooled."
+        }
+      ],
+      "image": {
+        "url": "images/zaalouk.jpg",
+        "alt": "Zaalouk plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 95,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "moroccan-mint-tea",
+      "name": "Moroccan Mint Tea",
+      "description": "Sweet green tea infused with fresh mint.",
+      "type": "drink",
+      "cuisine": "Moroccan",
+      "originCountry": "Morocco",
+      "servings": 4,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "green tea",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "fresh mint",
+          "amount": "1",
+          "unit": "large bunch",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "water",
+          "amount": "1",
+          "unit": "liter",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Rinse the tea briefly, then brew it in hot water."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the mint and sugar and let the tea infuse a little longer."
+        },
+        {
+          "order": 3,
+          "instruction": "Pour from height into small glasses and serve hot."
+        }
+      ],
+      "image": {
+        "url": "images/moroccan-mint-tea.jpg",
+        "alt": "Moroccan Mint Tea plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 60,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "falafel",
+      "name": "Falafel",
+      "description": "Crisp chickpea fritters flavored with herbs, spices, and garlic.",
+      "type": "main",
+      "cuisine": "Lebanese",
+      "originCountry": "Lebanon",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "soaked dried chickpeas",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "small",
+          "notes": ""
+        },
+        {
+          "name": "parsley",
+          "amount": "1",
+          "unit": "handful",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "2",
+          "unit": "cloves",
+          "notes": ""
+        },
+        {
+          "name": "ground cumin",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Pulse the chickpeas with onion, herbs, garlic, and spices until the mixture is finely chopped but not pureed."
+        },
+        {
+          "order": 2,
+          "instruction": "Shape the mixture into balls or patties and let it firm slightly."
+        },
+        {
+          "order": 3,
+          "instruction": "Fry until deeply golden and crisp outside while keeping the inside tender."
+        }
+      ],
+      "image": {
+        "url": "images/falafel.jpg",
+        "alt": "Falafel plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 250,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "tabbouleh",
+      "name": "Tabbouleh",
+      "description": "A herb-driven salad with bulgur, tomatoes, parsley, and lemon.",
+      "type": "side",
+      "cuisine": "Lebanese",
+      "originCountry": "Lebanon",
+      "servings": 6,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "fine bulgur",
+          "amount": "80",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "parsley",
+          "amount": "2",
+          "unit": "large bunches",
+          "notes": ""
+        },
+        {
+          "name": "mint",
+          "amount": "1",
+          "unit": "small bunch",
+          "notes": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "lemon juice",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Soak or cook the bulgur according to the package and let it cool."
+        },
+        {
+          "order": 2,
+          "instruction": "Finely chop the herbs and tomatoes."
+        },
+        {
+          "order": 3,
+          "instruction": "Toss everything with lemon juice, olive oil, and salt."
+        }
+      ],
+      "image": {
+        "url": "images/tabbouleh.jpg",
+        "alt": "Tabbouleh plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 110,
+        "estimated": true
+      },
+      "allergens": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "baba-ghanoush",
+      "name": "Baba Ghanoush",
+      "description": "A smoky eggplant dip blended with tahini, lemon, and garlic.",
+      "type": "sauce",
+      "cuisine": "Lebanese",
+      "originCountry": "Lebanon",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 35,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "eggplants",
+          "amount": "2",
+          "unit": "large",
+          "notes": ""
+        },
+        {
+          "name": "tahini",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "lemon juice",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "1",
+          "unit": "clove",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Roast the eggplants until collapsed and smoky, then scoop out the flesh."
+        },
+        {
+          "order": 2,
+          "instruction": "Blend or mash the eggplant with tahini, lemon juice, garlic, and olive oil."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve with a drizzle of olive oil and flatbread."
+        }
+      ],
+      "image": {
+        "url": "images/baba-ghanoush.jpg",
+        "alt": "Baba Ghanoush plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 95,
+        "estimated": true
+      },
+      "allergens": [
+        "sesame"
+      ]
+    },
+    {
+      "id": "fish-and-chips",
+      "name": "Fish and Chips",
+      "description": "Battered white fish with thick-cut fries and malt vinegar.",
+      "type": "main",
+      "cuisine": "British",
+      "originCountry": "UK",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 25,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "white fish fillets",
+          "amount": "600",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "potatoes",
+          "amount": "800",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "beer or sparkling water",
+          "amount": "200",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "neutral oil",
+          "amount": "1",
+          "unit": "liter",
+          "notes": "for frying"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cut and fry or roast the potatoes until crisp and golden."
+        },
+        {
+          "order": 2,
+          "instruction": "Make a batter with flour and cold beer or sparkling water and coat the fish."
+        },
+        {
+          "order": 3,
+          "instruction": "Fry the fish until the batter is crunchy and the flesh flakes easily."
+        }
+      ],
+      "image": {
+        "url": "images/fish-and-chips.jpg",
+        "alt": "Fish and Chips plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 550,
+        "estimated": true
+      },
+      "allergens": [
+        "fish",
+        "gluten"
+      ]
+    },
+    {
+      "id": "shepherds-pie",
+      "name": "Shepherd's Pie",
+      "description": "A baked casserole of savory minced lamb under a blanket of mashed potatoes.",
+      "type": "main",
+      "cuisine": "British",
+      "originCountry": "UK",
+      "servings": 6,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 35,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "ground lamb",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion and carrots",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "peas",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "potatoes",
+          "amount": "1",
+          "unit": "kg",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "40",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the lamb with the vegetables until lightly browned and savory."
+        },
+        {
+          "order": 2,
+          "instruction": "Make a smooth mash with the potatoes and butter."
+        },
+        {
+          "order": 3,
+          "instruction": "Top the meat filling with the mash and bake until the top is golden."
+        }
+      ],
+      "image": {
+        "url": "images/shepherds-pie.jpg",
+        "alt": "Shepherd's Pie plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 440,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "sticky-toffee-pudding",
+      "name": "Sticky Toffee Pudding",
+      "description": "A moist date sponge served with a warm toffee sauce.",
+      "type": "dessert",
+      "cuisine": "British",
+      "originCountry": "UK",
+      "servings": 8,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "dates",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "flour",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "brown sugar",
+          "amount": "180",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "90",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cream",
+          "amount": "200",
+          "unit": "ml",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Soften the dates in hot water and blend them into a thick paste."
+        },
+        {
+          "order": 2,
+          "instruction": "Make the sponge batter with butter, sugar, eggs, flour, and the date mixture, then bake until springy."
+        },
+        {
+          "order": 3,
+          "instruction": "Cook the toffee sauce and pour it over the warm pudding."
+        }
+      ],
+      "image": {
+        "url": "images/sticky-toffee-pudding.jpg",
+        "alt": "Sticky Toffee Pudding plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 430,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk",
+        "gluten"
+      ]
+    },
+    {
+      "id": "pho-bo",
+      "name": "Pho Bo",
+      "description": "A fragrant beef noodle soup with herbs, rice noodles, and warming spices.",
+      "type": "main",
+      "cuisine": "Vietnamese",
+      "originCountry": "Vietnam",
+      "servings": 6,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 120,
+      "difficulty": 3,
+      "ingredients": [
+        {
+          "name": "beef stock",
+          "amount": "2",
+          "unit": "liters",
+          "notes": ""
+        },
+        {
+          "name": "rice noodles",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "beef sirloin",
+          "amount": "300",
+          "unit": "g",
+          "notes": "thinly sliced"
+        },
+        {
+          "name": "star anise and cinnamon",
+          "amount": "1",
+          "unit": "set",
+          "notes": ""
+        },
+        {
+          "name": "bean sprouts and herbs",
+          "amount": "1",
+          "unit": "set",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Simmer the stock with the spices and aromatics until deeply fragrant."
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the rice noodles separately and divide them between bowls."
+        },
+        {
+          "order": 3,
+          "instruction": "Arrange the raw beef over the noodles, pour over the hot broth, and finish with herbs and sprouts."
+        }
+      ],
+      "image": {
+        "url": "images/pho-bo.jpg",
+        "alt": "Pho Bo plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 390,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "banh-mi",
+      "name": "Banh Mi",
+      "description": "A crisp baguette sandwich with savory filling, pickled vegetables, and herbs.",
+      "type": "main",
+      "cuisine": "Vietnamese",
+      "originCountry": "Vietnam",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "baguettes",
+          "amount": "4",
+          "unit": "small",
+          "notes": ""
+        },
+        {
+          "name": "pork or chicken",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "pickled carrots and daikon",
+          "amount": "200",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cucumber",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "cilantro",
+          "amount": "1",
+          "unit": "handful",
+          "notes": ""
+        },
+        {
+          "name": "mayonnaise",
+          "amount": "4",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the meat with a savory marinade until browned and juicy."
+        },
+        {
+          "order": 2,
+          "instruction": "Split the baguettes and spread with mayonnaise or pate if using."
+        },
+        {
+          "order": 3,
+          "instruction": "Fill with the meat, pickles, cucumber, and cilantro."
+        }
+      ],
+      "image": {
+        "url": "images/banh-mi.jpg",
+        "alt": "Banh Mi plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 450,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "gluten",
+        "soy"
+      ]
+    },
+    {
+      "id": "fresh-vietnamese-spring-rolls",
+      "name": "Fresh Vietnamese Spring Rolls",
+      "description": "Rice-paper rolls packed with herbs, noodles, and shrimp or tofu.",
+      "type": "appetizer",
+      "cuisine": "Vietnamese",
+      "originCountry": "Vietnam",
+      "servings": 6,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 10,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "rice paper wrappers",
+          "amount": "12",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "rice vermicelli",
+          "amount": "150",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "shrimp or tofu",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "lettuce and herbs",
+          "amount": "1",
+          "unit": "set",
+          "notes": ""
+        },
+        {
+          "name": "peanut dipping sauce",
+          "amount": "120",
+          "unit": "ml",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the noodles and shrimp or tofu, then let everything cool."
+        },
+        {
+          "order": 2,
+          "instruction": "Soften each rice paper wrapper briefly in water."
+        },
+        {
+          "order": 3,
+          "instruction": "Roll with noodles, herbs, and filling, then serve with the dipping sauce."
+        }
+      ],
+      "image": {
+        "url": "images/fresh-vietnamese-spring-rolls.jpg",
+        "alt": "Fresh Vietnamese Spring Rolls plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 180,
+        "estimated": true
+      },
+      "allergens": [
+        "shellfish",
+        "peanut"
+      ]
+    },
+    {
+      "id": "bibimbap",
+      "name": "Bibimbap",
+      "description": "A Korean rice bowl topped with vegetables, beef, egg, and chili paste.",
+      "type": "main",
+      "cuisine": "Korean",
+      "originCountry": "Korea",
+      "servings": 4,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 20,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "cooked rice",
+          "amount": "600",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "beef",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "mixed vegetables",
+          "amount": "400",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "gochujang",
+          "amount": "4",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the vegetables separately so each keeps its color and texture."
+        },
+        {
+          "order": 2,
+          "instruction": "Brown the beef with a little soy sauce and sesame oil and fry the eggs."
+        },
+        {
+          "order": 3,
+          "instruction": "Assemble the rice bowls with the toppings and mix with gochujang before eating."
+        }
+      ],
+      "image": {
+        "url": "images/bibimbap.jpg",
+        "alt": "Bibimbap plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 510,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "soy",
+        "sesame",
+        "gluten"
+      ]
+    },
+    {
+      "id": "bulgogi",
+      "name": "Bulgogi",
+      "description": "Thinly sliced beef marinated in soy, pear, garlic, and sesame.",
+      "type": "main",
+      "cuisine": "Korean",
+      "originCountry": "Korea",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "beef sirloin",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "4",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "pear",
+          "amount": "0.5",
+          "unit": "piece",
+          "notes": "grated"
+        },
+        {
+          "name": "garlic",
+          "amount": "2",
+          "unit": "cloves",
+          "notes": ""
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Marinate the beef with soy sauce, pear, garlic, and sesame oil."
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the beef quickly in a very hot pan so it browns without overcooking."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve with rice and lettuce leaves."
+        }
+      ],
+      "image": {
+        "url": "images/bulgogi.jpg",
+        "alt": "Bulgogi plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 320,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "sesame",
+        "gluten"
+      ]
+    },
+    {
+      "id": "kimchi-fried-rice",
+      "name": "Kimchi Fried Rice",
+      "description": "A fast, savory fried rice built around ripe kimchi and a fried egg.",
+      "type": "main",
+      "cuisine": "Korean",
+      "originCountry": "Korea",
+      "servings": 4,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 10,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "cooked rice",
+          "amount": "800",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "kimchi",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "gochujang",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "eggs",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Stir-fry the kimchi first so it caramelizes slightly."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the rice and gochujang and fry until hot and well combined."
+        },
+        {
+          "order": 3,
+          "instruction": "Top each serving with a fried egg and a few drops of sesame oil."
+        }
+      ],
+      "image": {
+        "url": "images/kimchi-fried-rice.jpg",
+        "alt": "Kimchi Fried Rice plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 360,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "soy",
+        "sesame",
+        "gluten"
+      ]
+    },
+    {
+      "id": "feijoada",
+      "name": "Feijoada",
+      "description": "A Brazilian black bean stew enriched with pork and served with rice.",
+      "type": "main",
+      "cuisine": "Brazilian",
+      "originCountry": "Brazil",
+      "servings": 8,
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 150,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "black beans",
+          "amount": "600",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "pork shoulder or sausage",
+          "amount": "700",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "3",
+          "unit": "cloves",
+          "notes": ""
+        },
+        {
+          "name": "orange",
+          "amount": "1",
+          "unit": "piece",
+          "notes": "for serving"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the black beans until tender while separately browning the pork and sausage."
+        },
+        {
+          "order": 2,
+          "instruction": "Combine everything with onion and garlic and simmer slowly until rich and thick."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve with rice and orange wedges to cut the richness."
+        }
+      ],
+      "image": {
+        "url": "images/feijoada.jpg",
+        "alt": "Feijoada plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 520,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "brigadeiro",
+      "name": "Brigadeiro",
+      "description": "Brazilian chocolate fudge truffles rolled in chocolate sprinkles.",
+      "type": "dessert",
+      "cuisine": "Brazilian",
+      "originCountry": "Brazil",
+      "servings": 18,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "sweetened condensed milk",
+          "amount": "395",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "cocoa powder",
+          "amount": "3",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "butter",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "chocolate sprinkles",
+          "amount": "100",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the condensed milk, cocoa, and butter over low heat until the mixture thickens and pulls away from the pan."
+        },
+        {
+          "order": 2,
+          "instruction": "Cool the mixture until it is firm enough to handle."
+        },
+        {
+          "order": 3,
+          "instruction": "Roll into small balls and coat with chocolate sprinkles."
+        }
+      ],
+      "image": {
+        "url": "images/brigadeiro.jpg",
+        "alt": "Brigadeiro plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 95,
+        "estimated": true
+      },
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "id": "caipirinha",
+      "name": "Caipirinha",
+      "description": "A bright Brazilian cocktail of cachaca, lime, and sugar.",
+      "type": "cocktail",
+      "cuisine": "Brazilian",
+      "originCountry": "Brazil",
+      "servings": 1,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "lime",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "2",
+          "unit": "tsp",
+          "notes": ""
+        },
+        {
+          "name": "cachaca",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "ice",
+          "amount": "1",
+          "unit": "glassful",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cut the lime into wedges and muddle it with the sugar in a sturdy glass."
+        },
+        {
+          "order": 2,
+          "instruction": "Fill the glass with crushed ice."
+        },
+        {
+          "order": 3,
+          "instruction": "Pour in the cachaca and stir well."
+        }
+      ],
+      "image": {
+        "url": "images/caipirinha.jpg",
+        "alt": "Caipirinha plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 200,
+        "estimated": true
+      },
+      "allergens": []
+    },
+    {
+      "id": "ceviche",
+      "name": "Ceviche",
+      "description": "Fresh fish cured in lime juice with onion, chili, and herbs.",
+      "type": "appetizer",
+      "cuisine": "Peruvian",
+      "originCountry": "Peru",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "firm white fish",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "lime juice",
+          "amount": "150",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "red onion",
+          "amount": "1",
+          "unit": "small",
+          "notes": ""
+        },
+        {
+          "name": "aji or chili",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "cilantro",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cut the fish into small cubes and chill it well."
+        },
+        {
+          "order": 2,
+          "instruction": "Toss with lime juice, onion, chili, and cilantro until the fish turns opaque on the surface."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve immediately while bright and cold."
+        }
+      ],
+      "image": {
+        "url": "images/ceviche.jpg",
+        "alt": "Ceviche plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 170,
+        "estimated": true
+      },
+      "allergens": [
+        "fish"
+      ]
+    },
+    {
+      "id": "lomo-saltado",
+      "name": "Lomo Saltado",
+      "description": "A Peruvian stir-fry of beef, onion, tomato, and fries.",
+      "type": "main",
+      "cuisine": "Peruvian",
+      "originCountry": "Peru",
+      "servings": 4,
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "name": "beef sirloin",
+          "amount": "500",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "red onion",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "french fries",
+          "amount": "300",
+          "unit": "g",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Sear the beef very quickly over high heat so it keeps color and tenderness."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the onion, tomato, and soy sauce and toss briefly."
+        },
+        {
+          "order": 3,
+          "instruction": "Fold in the fries at the end and serve with rice."
+        }
+      ],
+      "image": {
+        "url": "images/lomo-saltado.jpg",
+        "alt": "Lomo Saltado plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 540,
+        "estimated": true
+      },
+      "allergens": [
+        "soy",
+        "gluten"
+      ]
+    },
+    {
+      "id": "pisco-sour",
+      "name": "Pisco Sour",
+      "description": "A frothy cocktail of pisco, lime, sugar, and bitters.",
+      "type": "cocktail",
+      "cuisine": "Peruvian",
+      "originCountry": "Peru",
+      "servings": 1,
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "pisco",
+          "amount": "60",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "lime juice",
+          "amount": "30",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "simple syrup",
+          "amount": "20",
+          "unit": "ml",
+          "notes": ""
+        },
+        {
+          "name": "egg white",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "bitters",
+          "amount": "2",
+          "unit": "drops",
+          "notes": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Shake the pisco, lime juice, syrup, and egg white hard without ice first."
+        },
+        {
+          "order": 2,
+          "instruction": "Add ice and shake again until the drink is very cold and foamy."
+        },
+        {
+          "order": 3,
+          "instruction": "Strain into a chilled glass and finish with bitters."
+        }
+      ],
+      "image": {
+        "url": "images/pisco-sour.jpg",
+        "alt": "Pisco Sour plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 190,
+        "estimated": true
+      },
+      "allergens": [
+        "egg"
+      ]
+    },
+    {
+      "id": "menemen",
+      "name": "Menemen",
+      "description": "Soft scrambled eggs with tomatoes, peppers, and olive oil.",
+      "type": "breakfast",
+      "cuisine": "Turkish",
+      "originCountry": "Turkey",
+      "servings": 3,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 12,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": "4",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": "3",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "green peppers",
+          "amount": "2",
+          "unit": "pieces",
+          "notes": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "feta",
+          "amount": "50",
+          "unit": "g",
+          "notes": "optional"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cook the peppers and tomatoes in olive oil until the tomatoes soften into a sauce."
+        },
+        {
+          "order": 2,
+          "instruction": "Pour in the beaten eggs and stir gently until softly set."
+        },
+        {
+          "order": 3,
+          "instruction": "Serve immediately with bread."
+        }
+      ],
+      "image": {
+        "url": "images/menemen.jpg",
+        "alt": "Menemen plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 220,
+        "estimated": true
+      },
+      "allergens": [
+        "egg",
+        "milk"
+      ]
+    },
+    {
+      "id": "mercimek-corbasi",
+      "name": "Mercimek Corbasi",
+      "description": "A smooth Turkish red lentil soup brightened with lemon.",
+      "type": "appetizer",
+      "cuisine": "Turkish",
+      "originCountry": "Turkey",
+      "servings": 6,
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 30,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "name": "red lentils",
+          "amount": "250",
+          "unit": "g",
+          "notes": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "carrot",
+          "amount": "1",
+          "unit": "piece",
+          "notes": ""
+        },
+        {
+          "name": "tomato paste",
+          "amount": "1",
+          "unit": "tbsp",
+          "notes": ""
+        },
+        {
+          "name": "stock or water",
+          "amount": "1.2",
+          "unit": "liters",
+          "notes": ""
+        },
+        {
+          "name": "lemon wedges",
+          "amount": "1",
+          "unit": "set",
+          "notes": "for serving"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Saute the onion and carrot with the tomato paste until fragrant."
+        },
+        {
+          "order": 2,
+          "instruction": "Add the lentils and stock and simmer until the lentils are falling apart."
+        },
+        {
+          "order": 3,
+          "instruction": "Blend until smooth and serve with lemon."
+        }
+      ],
+      "image": {
+        "url": "images/mercimek-corbasi.jpg",
+        "alt": "Mercimek Corbasi plated and ready to serve"
+      },
+      "nutrition": {
+        "kcalPerServing": 180,
+        "estimated": true
+      },
+      "allergens": [
+        "celery"
+      ]
+    }
+  ]
+}
