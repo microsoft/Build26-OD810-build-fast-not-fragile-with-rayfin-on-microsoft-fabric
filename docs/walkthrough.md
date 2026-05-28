@@ -4,7 +4,7 @@ A written companion to the on-demand session **Build fast, not fragile on Micros
 
 The session is demo-heavy and split into five demos around a single sample app — **Contoso Chef**, a recipe-sharing app — that lives in [`/src/`](../src). This document walks through the same beats so you can revisit the story, follow up on a specific demo, or recreate it yourself.
 
-> 💡 If you want to **run the app**, head straight to the [Contoso Chef README](../src/README.md) — it covers local setup with `rayfin dev` and deployment to Microsoft Fabric with `rayfin up`.
+> 💡 If you want to **run the app**, head straight to the [Contoso Chef README](../src/README.md) — it covers deploying to Microsoft Fabric with `rayfin up`.
 
 ---
 
@@ -145,8 +145,8 @@ The `npx rayfin up` command you ran in Demo 1 didn't just create the backend. It
 What you see on screen:
 
 1. Open the Fabric portal — the Rayfin item is there, with the app reachable from a Fabric-hosted URL.
-2. Open the deployed app — same UI, same recipes, **Microsoft Fabric SSO** on the sign-in page instead of email/password.
-3. Auth adapts at runtime: locally, the same `rayfin.yml` exposes email/password; deployed on Fabric, the React app sees the `VITE_FABRIC_*` env vars and switches to Fabric SSO (popup and embedded modes).
+2. Open the deployed app — sign in with **Microsoft Fabric SSO** and you land on the same UI you've been iterating on, populated with the recipes you seeded.
+3. The single auth path is wired through `services.auth.fabric.enabled: true` in `rayfin.yml`. When loaded inside the Fabric portal, the React app uses embedded SSO; opened standalone or from `npm run dev`, it falls back to a popup sign-in — same identity, same code path.
 
 **Why this matters:** moving from dev to production should be boring. Same foundation, same code path, no rewrite at the identity layer.
 

@@ -17,7 +17,7 @@ Ship new apps in minutes without hand-rolling auth, data, and hosting. In this s
 To follow this session at your own pace, explore the sample app — **Contoso Chef**, a recipe-sharing app built with Rayfin on Microsoft Fabric:
 
 - Clone this repository
-- Open the [`/src/`](./src) folder and follow the [Contoso Chef README](./src/README.md) for setup, local development with `rayfin dev`, and deploying to Microsoft Fabric with `rayfin up`
+- Open the [`/src/`](./src) folder and follow the [Contoso Chef README](./src/README.md) to deploy the sample to Microsoft Fabric with `rayfin up`
 - Browse the [session walkthrough](./docs/walkthrough.md) for a slide-by-slide narrative of the session and notes on each demo
 
 ### 🧠 Learning Outcomes
