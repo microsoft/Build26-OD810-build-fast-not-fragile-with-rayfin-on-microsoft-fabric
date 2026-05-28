@@ -28,13 +28,7 @@ Store your private recipes, share favourites with a link, and discover community
 > [!NOTE]
 > **Prerequisites**: Node.js 20+, Docker Desktop running, and a GitHub account with access to the `@microsoft/rayfin-*` packages on GitHub Packages.
 
-### 1. Authenticate to GitHub Packages
 
-```bash
-./setup-npm-auth.sh
-```
-
-This script uses the GitHub CLI (`gh`) to provision an access token so npm can pull the private `@microsoft/rayfin-*` packages.
 
 ### 2. Install dependencies
 
@@ -239,20 +233,6 @@ The same flow works locally — `npm run dev` then sign in via the UI and the se
 
 > [!NOTE]
 > The browser-side seed is implemented in [src/lib/seed.ts](src/lib/seed.ts) and the bundled assets are wired up by a small Vite plugin in [vite.config.ts](vite.config.ts) (serves `data/` at `/seed/*` in dev, copies to `dist/seed/` at build time). Recipes are created with `authorName: "Contoso Chef"` regardless of which user triggered the seed, so the catalogue looks consistent.
-
-## Demo script (Microsoft Build)
-
-A 5-minute walkthrough that hits every feature:
-
-1. Open <http://localhost:5173> as a signed-out visitor — the **Discover** grid lists only public recipes.
-2. Click any recipe — anonymous users see ingredients, steps, and the like count.
-3. Click **Sign in**, create an account.
-4. **+ New recipe** — fill out a quick recipe, leave **Visibility = Private**, save. Open it: only you see it; **My recipes** lists it with a `private` badge.
-5. Edit the recipe and switch to **Unlisted**. Copy the URL into a private window — now reachable, but it does not appear in Discover.
-6. Switch to **Public** — it now appears on the home page for everyone.
-7. Like a community recipe; check **Liked** in the nav.
-8. Click the like count — see the list of users who liked it.
-9. (Optional) Re-deploy with `npx rayfin up` and demo the same flows running on Fabric with SSO.
 
 ## Resources
 
