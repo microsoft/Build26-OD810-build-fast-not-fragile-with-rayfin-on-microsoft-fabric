@@ -1,16 +1,6 @@
-# /docs
+# Session walkthrough
 
-This folder is for documentation and step-by-step content for your session.
+This folder mirrors the on-demand session **OD810 — Build fast, not fragile on Microsoft Fabric** so you can revisit it at your own pace after Build.
 
-## What goes here
-
-- **Labs/Workshops**: Step-by-step instructions organized into numbered exercises (e.g., `01-setup/`, `02-first-exercise/`)
-- **Demos**: Walkthrough documentation explaining the demo code in `/src`
-- **Breakouts**: Supplementary documentation, diagrams, or reference material
-
-## Tips
-
-- Use numbered prefixes for ordering: `01-setup/`, `02-exercise/`, `03-wrap-up/`
-- Each subfolder can have its own `README.md` or `index.md`
-- Keep images in an `assets/` subfolder if needed
-- If your session doesn't have documentation beyond the README, feel free to remove this folder
+- 📖 **[walkthrough.md](walkthrough.md)** — slide-by-slide narrative of the session, with notes on what each demo shows and where to find the corresponding code in [`/src/`](../src) (the **Contoso Chef** sample app built with Rayfin on Microsoft Fabric).
+- 🛠 **[/src/README.md](../src/README.md)** — full setup instructions: run the sample locally with `rayfin dev`, then deploy to Microsoft Fabric with `rayfin up`.

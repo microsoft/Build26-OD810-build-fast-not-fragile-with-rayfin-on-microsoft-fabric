@@ -18,7 +18,7 @@ To follow this session at your own pace, explore the sample app — **Contoso Ch
 
 - Clone this repository
 - Open the [`/src/`](./src) folder and follow the [Contoso Chef README](./src/README.md) for setup, local development with `rayfin dev`, and deploying to Microsoft Fabric with `rayfin up`
-- Browse the demo walkthrough in [`/docs/`](./docs) for the slide-by-slide narrative shown in the session
+- Browse the [session walkthrough](./docs/walkthrough.md) for a slide-by-slide narrative of the session and notes on each demo
 
 ### 🧠 Learning Outcomes
 
@@ -30,13 +30,33 @@ By the end of this session, you will be able to:
 
 ### 💬 Keep Learning with Copilot
 
-Try these prompts with GitHub Copilot to explore the topics from this session. Open Copilot Chat in VS Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
+Try these prompts with GitHub Copilot to explore the topics from this session. Open Copilot Chat in Visual Studio Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
 
 Use these as a starting point — or write your own!
 
-<!-- Prompts will be tailored to this session's content during repo setup. -->
+1. Understand the foundation:
 
-> *Prompts coming soon — check back after the session content is finalized.*
+   ```
+   Using the Microsoft Learn MCP Server, explain what Microsoft Fabric is, how Rayfin fits into it, and which Fabric features (identity, governance, analytics) a Rayfin app inherits out of the box.
+   ```
+
+2. Tour the sample app like an agent would:
+
+   ```
+   Open the Contoso Chef sample in /src/. Read src/AGENTS.md and src/.agents/skills/rayfin/SKILL.md first, then walk me through how the Recipe and Like entities, row-level security, and storage uploads are wired together — and explain why the React frontend never filters by user_id.
+   ```
+
+3. Extend the app safely:
+
+   ```
+   In the Contoso Chef sample, design a new feature that lets users tag recipes (e.g. "vegetarian", "dessert"). Propose the schema change, the migration steps with rayfin up, and the access-control rules — without breaking existing recipes.
+   ```
+
+4. Build on top of the data:
+
+   ```
+   Using the Microsoft Learn MCP Server, show me how to use Rayfin Analytics Apps to build a dashboard on top of the Contoso Chef Fabric data — most viewed recipes, popular ingredients, and active contributors.
+   ```
 
 ### 💻 Technologies Used
 
