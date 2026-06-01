@@ -71,6 +71,7 @@ Use these as a starting point — or write your own!
 | Resource | Description |
 |:---------|:------------|
 | [Build 2026 Next Steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
+| [LAB514: Ship AI apps fast with a managed backend in Microsoft Fabric](https://github.com/microsoft/Build26-LAB514-ship-ai-apps-fast-with-a-managed-backend-in-microsoft-fabric) | Related Build 2026 hands-on lab — go deeper on shipping AI apps with a managed backend on Microsoft Fabric |
 | [Microsoft Fabric documentation](https://learn.microsoft.com/fabric/) | Full documentation for Microsoft Fabric, including data engineering, real-time intelligence, data warehouse, and app development |
 | [Rayfin on aka.ms/rayfin](https://aka.ms/rayfin) | Official Rayfin landing page — getting started, CLI reference, and templates for Fabric apps |
 | [Microsoft Entra ID documentation](https://learn.microsoft.com/entra/identity/) | Identity, authentication, and access-control documentation for Microsoft Entra ID |
