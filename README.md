@@ -76,6 +76,7 @@ Use these as a starting point — or write your own!
 | [Rayfin on aka.ms/rayfin](https://aka.ms/rayfin) | Official Rayfin landing page — getting started, CLI reference, and templates for Fabric apps |
 | [Microsoft Entra ID documentation](https://learn.microsoft.com/entra/identity/) | Identity, authentication, and access-control documentation for Microsoft Entra ID |
 | [GitHub Copilot documentation](https://docs.github.com/copilot) | Learn how to use GitHub Copilot in your IDE, the CLI, and across the GitHub platform |
+| [Watch the session recording](https://aka.ms/build26/OD810/youtube) | Watch the recorded Microsoft Build session. |
 
 
 ### 🌟 Microsoft Learn MCP Server
