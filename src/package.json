@@ -25,7 +25,7 @@
     "react-router-dom": "^7.17.0"
   },
   "devDependencies": {
-    "@microsoft/rayfin-cli": "~1.23.0",
+    "@microsoft/rayfin-cli": "~1.33.1",
     "@microsoft/rayfin-mcp": "^1.30.0",
     "@types/node": "^22.10.0",
     "@types/react": "^18.3.12",
